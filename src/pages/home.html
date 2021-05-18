@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link
+         href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+         rel="stylesheet"
+      />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script
+         src="https://kit.fontawesome.com/8581c0aea3.js"
+         crossorigin="anonymous"
+      ></script>
+      <link rel="stylesheet" href="../../style.css" />
+      <title>Home Page</title>
+   </head>
+   <body>
+      <nav
+         class="
+            flex
+            items-center
+            justify-between
+            px-32
+            py-6
+            sticky
+            top-0
+            bg-white
+         "
+      >
+         <div class="flex items-center">
+            <img src="../assets/ic-logo.svg" alt="logo" />
+            <p class="font-bold ml-3">Coffee Shop</p>
+         </div>
+         <div>
+            <ul class="flex">
+               <li class="mr-8">
+                  <a class="text-gray-600 font-normal hover:text-red-900" href="../pages/home.html">Home</a>
+               </li>
+               <li class="mr-8">
+                  <a class="text-gray-600 font-normal hover:text-red-900" href="#Product"
+                     >Product</a
+                  >
+               </li>
+               <li class="mr-8">
+                  <a class="text-gray-600 font-normal hover:text-red-900" href="#Cart"
+                     >Your Cart</a
+                  >
+               </li>
+               <li class="mr-8">
+                  <a class="text-gray-600 font-normal hover:text-red-900" href="#History"
+                     >History</a
+                  >
+               </li>
+            </ul>
+         </div>
+         <div class="flex items-center">
+            <div class="mr-8 font-medium"><a href="../pages/signIn.html">Login</a></div>
+               <a
+                  class="
+                     bg-yellow-400
+                     py-3
+                     px-9
+                     rounded-full
+                     font-medium
+                     shadow-xl
+                  "
+                  href="../pages/signUp.html"
+                  >Sign Up</a
+               >
+            </div>
+         </div>
+      </nav>
+      <section>
+         <article
+            class="bg-cover bg-center"
+            style="background-image: url(../assets/hero.png); height: 645px"
+         >
+            <div class="flex py-5 px-32">
+               <div class="kiri flex-1">
+                  <h1 class="font-bold text-white text-4xl max-w-md py-10">
+                     Start Your Day with Coffee and Good Meals
+                  </h1>
+                  <p class="text-white text-md font-bold mb-10 max-w-md">
+                     We provide high quality beans, good taste, and healthy
+                     meals made by love just for you. Start your day with us for
+                     a bigger smile!
+                  </p>
+                  <a
+                     class="bg-yellow-400 px-10 py-3 rounded font-bold text-sm"
+                     href="#"
+                     >Get Started</a
+                  >
+               </div>
+               <div class="kanan flex-1">
+                  <span
+                     class="
+                        float-right
+                        inline-block
+                        bg-white
+                        rounded-full
+                        px-5
+                        py-2
+                     "
+                  >
+                     <button>
+                        <img class="w-3" src="../assets/find.svg" alt="" />
+                     </button>
+                     <input
+                        class="font-bold text-xs p-2 focus:outline-none"
+                        type="text"
+                        placeholder="Search"
+                     />
+                  </span>
+               </div>
+            </div>
+         </article>
+      </section>
+      <section
+         class="
+            shadow-xl
+            bg-white
+            -mt-24
+            rounded-lg
+            h-44
+            px-32
+            flex
+            mx-32
+            flex-row
+            justify-between
+            items-center
+         "
+      >
+         <div class="flex flex-row items-center">
+            <div
+               class="
+                  bg-yellow-400
+                  w-10
+                  h-10
+                  rounded-full
+                  flex
+                  justify-center
+                  items-center
+                  mr-8
+               "
+            >
+               <span class="fas fa-user"></span>
+            </div>
+            <div class="flex flex-col">
+               <h4 class="font-semibold text-2xl">90+</h4>
+               <p class="capitalize text-gray-500">staff</p>
+            </div>
+         </div>
+         <div class="border-r-4 border-gray-200 h-24"></div>
+         <div class="flex flex-row items-center">
+            <div
+               class="
+                  bg-yellow-400
+                  w-10
+                  h-10
+                  rounded-full
+                  flex
+                  justify-center
+                  items-center
+                  mr-8
+               "
+            >
+               <span class="fas fa-map-marker-alt"></span>
+            </div>
+            <div class="flex flex-col">
+               <h4 class="font-semibold text-2xl">30+</h4>
+               <p class="capitalize text-gray-500">stores</p>
+            </div>
+         </div>
+         <div class="border-r-4 border-gray-200 h-24"></div>
+         <div class="flex flex-row items-center">
+            <div
+               class="
+                  bg-yellow-400
+                  w-10
+                  h-10
+                  rounded-full
+                  flex
+                  justify-center
+                  items-center
+                  mr-8
+               "
+            >
+               <span class="far fa-heart"></span>
+            </div>
+            <div class="flex flex-col">
+               <h4 class="font-semibold text-2xl">800+</h4>
+               <p class="capitalize text-gray-500">customers</p>
+            </div>
+         </div>
+      </section>
+      <section>
+         <article class="flex px-32 mb-5">
+            <div class="min-w-max mr-32 mt-36 flex-1">
+               <img src="../assets/teamWork.png" alt="teamwork" />
+            </div>
+            <div class="float-right mt-52 flex-1">
+               <h2 class="font-semibold text-3xl mb-5">
+                  We Provide Good Coffee and Healthy Meals
+               </h2>
+               <p class="mb-5">
+                  You can explore the menu that we provide with fun and have
+                  their own taste and make your day better.
+               </p>
+               <ul class="leading-10">
+                  <li class="flex items-center content-center">
+                     <span
+                        style="font-size: 8px"
+                        class="
+                           fas
+                           fa-check
+                           mr-2
+                           bg-green-500
+                           text-white
+                           rounded-full
+                           p-1
+                        "
+                     ></span>
+                     <p>High quality beans</p>
+                  </li>
+                  <li class="flex items-center content-center">
+                     <span
+                        style="font-size: 8px"
+                        class="
+                           fas
+                           fa-check
+                           mr-2
+                           bg-green-500
+                           text-white
+                           rounded-full
+                           p-1
+                        "
+                     ></span>
+                     <p>Healthy meals, you can request the ingredients</p>
+                  </li>
+                  <li class="flex items-center content-center">
+                     <span
+                        style="font-size: 8px"
+                        class="
+                           fas
+                           fa-check
+                           mr-2
+                           bg-green-500
+                           text-white
+                           rounded-full
+                           p-1
+                        "
+                     ></span>
+                     <p>
+                        Chat with our staff to get better experience for
+                        ordering
+                     </p>
+                  </li>
+                  <li class="flex items-center content-center">
+                     <span
+                        style="font-size: 8px"
+                        class="
+                           fas
+                           fa-check
+                           mr-2
+                           bg-green-500
+                           text-white
+                           rounded-full
+                           p-1
+                        "
+                     ></span>
+                     <p>
+                        Free member card with a minimum purchase of IDR 200.000.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </article>
+      </section>
+      <section>
+         <article class="bg-gray-50 pb-44">
+            <div class="flex flex-col items-center pt-20">
+               <div class="text-black font-bold text-2xl mb-5">
+                  Here is People’s Favorite
+               </div>
+               <div class="mb-24">
+                  Let’s choose and have a bit taste of poeple’s favorite. It
+                  might be yours too!
+               </div>
+            </div>
+            <div class="flex flex-row justify-between px-32">
+               <div
+                  class="
+                     flex flex-col
+                     box
+                     bg-white
+                     items-center
+                     justify-between
+                     py-14
+                     border-2 border-gray-200
+                     rounded-xl
+                     hover:border-red-900
+                  "
+               >
+                  <img
+                     class="w-32 h-32 rounded-full"
+                     src="../assets/food1.png"
+                     alt=""
+                  />
+                  <div>
+                     <h1 class="font-bold text-lg mb-8 text-center">
+                        Hazelnut Latte
+                     </h1>
+                     <div>
+                        <ul class="leading-10">
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Hazelnut Syrup
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Wanilla Whipped Cream
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Ice / Hot
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Sliced Banana on Top
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                     <p class="font-semibold text-2xl mb-5">IDR 25.000</p>
+                     <button
+                        class="
+                           px-12
+                           py-3
+                           rounded-full
+                           bg-white
+                           border-2 border-yellow-400
+                           font-semibold
+                           text-red-900
+                           focus:outline-none
+                           hover:bg-yellow-400
+                        "
+                     >
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     flex flex-col
+                     box
+                     bg-white
+                     items-center
+                     justify-between
+                     py-14
+                     border-2 border-gray-200
+                     rounded-xl
+                     hover:border-red-900
+                  "
+               >
+                  <img
+                     class="w-32 h-32 rounded-full"
+                     src="../assets/food2.png"
+                     alt=""
+                  />
+                  <div>
+                     <h1 class="font-bold text-lg mb-8 text-center">
+                        Pinky Promise
+                     </h1>
+                     <div>
+                        <ul class="leading-10">
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              1 Shot of Coffee
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Vanilla Whipped Cream
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Chocolate Biscuits
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Strawberry Syrup
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Sliced strawberry on Top
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                     <p class="font-semibold text-2xl mb-5">IDR 30.000</p>
+                     <button
+                        class="
+                           px-12
+                           py-3
+                           rounded-full
+                           bg-white
+                           border-2 border-yellow-400
+                           font-semibold
+                           text-red-900
+                           focus:outline-none
+                           hover:bg-yellow-400
+                        "
+                     >
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     flex flex-col
+                     box
+                     bg-white
+                     items-center
+                     justify-between
+                     py-14
+                     border-2 border-gray-200
+                     rounded-xl
+                     hover:border-red-900
+                  "
+               >
+                  <img
+                     class="w-32 h-32 rounded-full"
+                     src="../assets/food1.png"
+                     alt=""
+                  />
+                  <div>
+                     <h1 class="font-bold text-lg mb-8 text-center">
+                        Chicken Wings
+                     </h1>
+                     <div>
+                        <ul class="leading-10">
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Wings
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Drum Sticks
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Mayonaise and Lemon
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Hot Fried
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Secret Recipe
+                           </li>
+                           <li>
+                              <span
+                                 class="fas fa-check text-green-500 mr-3"
+                              ></span>
+                              Buy 1 Get 1 only for Dine in
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                     <p class="font-semibold text-2xl mb-5">IDR 40.000</p>
+                     <button
+                        class="
+                           px-12
+                           py-3
+                           rounded-full
+                           bg-white
+                           border-2 border-yellow-400
+                           font-semibold
+                           text-red-900
+                           focus:outline-none
+                           hover:bg-yellow-400
+                        "
+                     >
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </article>
+      </section>
+      <section>
+         <article class="px-32 bg-gray-50">
+            <div class="title text-center mb-5">
+               <h1 class="font-semibold text-2xl">
+                  Visit Our Store in the <br />
+                  Spot on the Map Below
+               </h1>
+            </div>
+            <div class="subTitle mb-20">
+               <p class="text-center">
+                  See our store in every city on the spot and spen your good day
+                  there. See you soon!
+               </p>
+            </div>
+            <div class="w-full">
+               <img src="../assets/map.png" alt="" />
+            </div>
+         </article>
+      </section>
+      <section>
+         <article class="bg-gray-50 flex flex-col px-32 items-center py-20">
+            <h1 class="font-semibold text-black text-2xl">Our Partner</h1>
+            <img src="../assets/partner.png" alt="partner" />
+         </article>
+      </section>
+      <section>
+         <article class="px-32 bg-gray-50 pb-36">
+            <div class="flex flex-col justify-center items-center">
+               <h1 class="font-semibold text-2xl text-center mb-10">
+                  Loved by Thousands of <br />
+                  Happy Customer
+               </h1>
+               <p class="text-gray-400 text-md mb-20">
+                  These are the stories of our customers who have visited us
+                  with great pleasure.
+               </p>
+            </div>
+            <div class="flex flex-row pb-20 justify-between">
+               <div
+                  class="
+                     w-96
+                     h-52
+                     bg-white
+                     border-2 border-gray-300
+                     rounded-md
+                     p-5
+                     hover:border-red-900
+                  "
+               >
+                  <div class="flex flex-row justify-between items-center">
+                     <img src="../assets/user1.png" alt="user" />
+                     <div class="flex flex-col flex-1 ml-5">
+                        <h4 class="font-semibold">Viezh Robert</h4>
+                        <p class="text-xs text-gray-400">Warsaw, Poland</p>
+                     </div>
+                     <div class="flex flex-row">
+                        <p class="mr-3">4.5</p>
+                        <img src="/src/assets/ic-star.svg" alt="ic-star" />
+                     </div>
+                  </div>
+                  <div class="mt-5">
+                     <p class="text-sm leading-6">
+                        “Wow... I am very happy to spend my whole day here. the
+                        Wi-fi is good, and the coffee and meals tho. I like it
+                        here!! Very recommended!
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="
+                     w-96
+                     h-52
+                     bg-white
+                     border-2 border-gray-300
+                     rounded-md
+                     p-5
+                     hover:border-red-900
+                  "
+               >
+                  <div class="flex flex-row justify-between items-center">
+                     <img src="../assets/user2.png" alt="user" />
+                     <div class="flex flex-col flex-1 ml-5">
+                        <h4 class="font-semibold">Yessica Christy</h4>
+                        <p class="text-xs text-gray-400">Shanxi, China</p>
+                     </div>
+                     <div class="flex flex-row">
+                        <p class="mr-3">4.5</p>
+                        <img src="/src/assets/ic-star.svg" alt="ic-star" />
+                     </div>
+                  </div>
+                  <div class="mt-5">
+                     <p class="text-sm leading-6">
+                        “I like it because I like to travel far and still can
+                        make my day better just by drinking their Hazelnut Latte
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="
+                     w-96
+                     h-52
+                     bg-white
+                     border-2 border-gray-300
+                     rounded-md
+                     p-5
+                     hover:border-red-900
+                  "
+               >
+                  <div class="flex flex-row justify-between items-center">
+                     <img src="../assets/user3.png" alt="user" />
+                     <div class="flex flex-col flex-1 ml-5">
+                        <h4 class="font-semibold">Kim Young Jou</h4>
+                        <p class="text-xs text-gray-400">Seoul, South Korea</p>
+                     </div>
+                     <div class="flex flex-row">
+                        <p class="mr-3">4.5</p>
+                        <img src="/src/assets/ic-star.svg" alt="ic-star" />
+                     </div>
+                  </div>
+                  <div class="mt-5">
+                     <p class="text-sm leading-6">
+                        “This is very unusual for my taste, I haven’t liked
+                        coffee before but their coffee is the best! and yup, you
+                        have to order the chicken wings, the best in town!
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="flex flex-row justify-between items-center">
+               <div class="flex flex-row justify-between">
+                  <div class="w-11 rounded-full h-3 bg-red-900 mr-3"></div>
+                  <div class="w-3 rounded-full h-3 bg-gray-300 mr-3"></div>
+                  <div class="w-3 rounded-full h-3 bg-gray-300 mr-3"></div>
+                  <div class="w-3 rounded-full h-3 bg-gray-300 mr-3"></div>
+               </div>
+               <div class="flex flex-row">
+                  <div
+                     class="
+                        border-2 border-red-900
+                        rounded-full
+                        w-12
+                        h-12
+                        justify-center
+                        items-center
+                        flex
+                        mr-5
+                     "
+                  >
+                     <span
+                        class="fas fa-arrow-left text-red-900 text-lg"
+                     ></span>
+                  </div>
+                  <div
+                     class="
+                        bg-red-900
+                        rounded-full
+                        w-12
+                        h-12
+                        justify-center
+                        items-center
+                        flex
+                     "
+                  >
+                     <span class="fas fa-arrow-right text-white text-lg"></span>
+                  </div>
+               </div>
+            </div>
+         </article>
+      </section>
+      <section
+         class="
+            bg-white
+            mx-32
+            -mt-24
+            h-40
+            rounded-xl
+            shadow-xl
+            flex flex-row
+            justify-between
+            items-center
+            px-10
+         "
+      >
+         <div class="flex flex-col">
+            <h1 class="font-semibold text-3xl">
+               Check our promo <br />
+               today!
+            </h1>
+            <br />
+            <p class="text-sm">Let's see the deals and pick yours!</p>
+         </div>
+         <button
+            class="
+               bg-yellow-400
+               px-10
+               py-3
+               rounded-lg
+               font-semibold
+               shadow-2xl
+               focus:outline-none
+               text-red-900
+            "
+         >
+            See Promo
+         </button>
+      </section>
+      <section>
+         <article
+            class="px-32 py-28 flex flex-row justify-between items-center"
+         >
+            <div class="flex flex-col">
+               <div class="flex flex-row items-center">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h4 class="font-semibold ml-5">Coffee Shop</h4>
+               </div>
+               <div class="my-8 text-sm">
+                  <p class="font-medium text-gray-500">
+                     Coffee Shop is a store that sells some good <br />
+                     meals, and especially coffee. We provide <br />
+                     high quality beans
+                  </p>
+               </div>
+               <div class="flex flex-row w-36 justify-between">
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-facebook-f"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-twitter"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-instagram"></span>
+                  </div>
+               </div>
+               <div>
+                  <p class="text-gray-400 text-sm mt-5">©2020CoffeeStore</p>
+               </div>
+            </div>
+            <div class="flex flex-row">
+               <div class="flex flex-col mr-24">
+                  <h4 class="font-semibold">Product</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Download</a></li>
+                     <li><a href="">Pricing</a></li>
+                     <li><a href="">Locations</a></li>
+                     <li><a href="">Countries</a></li>
+                     <li><a href="">Blog</a></li>
+                  </ul>
+               </div>
+               <div class="flex flex-col">
+                  <h4 class="font-semibold">Engage</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Cofee Shop</a></li>
+                     <li><a href="">FAQ</a></li>
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Privacy Policy</a></li>
+                     <li><a href="">Terms of Service</a></li>
+                  </ul>
+               </div>
+            </div>
+         </article>
+      </section>
+   </body>
+</html>

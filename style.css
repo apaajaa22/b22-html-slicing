@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+   font-family: "Rubik", sans-serif;
+}
+.box {
+   width: 330px;
+   height: 760px;
+}
+.backgroundLeft {
+   background-image: url("/src/assets/bgSign.png");
+   background-size: cover;
+   background-position: center;
+   height: 1100px;
+}
+.backgroundForgotPassword {
+   background-image: url("/src/assets/bgPassword.png");
+   background-size: cover;
+   background-position: center;
+   height: 1100px;
+}
