@@ -28,3 +28,9 @@
    background-position: center;
    height: 100%;
 }
+.backgroundCart {
+   background-image: url("/src/assets/bgCart.png");
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
