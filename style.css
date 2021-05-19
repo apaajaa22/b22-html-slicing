@@ -34,3 +34,9 @@
    background-position: center;
    height: 100%;
 }
+.bgHistory {
+   background-image: url("/src/assets/bgHistory.png");
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
