@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link
+         href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+         rel="stylesheet"
+      />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script
+         src="https://kit.fontawesome.com/8581c0aea3.js"
+         crossorigin="anonymous"
+      ></script>
+      <link rel="stylesheet" href="../../style.css" />
+      <title>Product Page</title>
+   </head>
+   <body>
+      <nav class="px-32 py-8">
+         <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-row items-center space-x-3">
+               <img src="../assets/ic-logo.svg" alt="logo" />
+               <h1 class="font-bold">Coffee Shop</h1>
+            </div>
+            <div class="flex items-center">
+               <ul class="flex flex-row space-x-10">
+                  <li class="text-gray-600">
+                     <a href="../pages/home.html">Home</a>
+                  </li>
+                  <li class="font-bold text-red-900">
+                     <a href="#">Product</a>
+                  </li>
+                  <li class="text-gray-600"><a href="#">Your Cart</a></li>
+                  <li class="text-gray-600"><a href="#">History</a></li>
+               </ul>
+            </div>
+            <div class="flex flex-row space-x-10 items-center">
+               <button class="focus:outline-none">
+                  <img src="../assets/find.svg" alt="findLogo" />
+               </button>
+               <button class="focus:outline-none">
+                  <img src="../assets/ic-chat.svg" alt="iconChat" />
+               </button>
+               <img
+                  class="w-8 h-8 rounded-full"
+                  src="../assets/IL-User.png"
+                  alt=""
+               />
+            </div>
+         </div>
+      </nav>
+      <section>
+         <article>
+            <div class="flex flex-row">
+               <div
+                  class="
+                     kiri
+                     w-96
+                     flex flex-col
+                     justify-center
+                     items-center
+                     space-y-8
+                     border-t-2 border-r-2
+                     pt-3
+                  "
+               >
+                  <div
+                     class="flex flex-col justify-center items-center space-y-8"
+                  >
+                     <h3 class="text-red-900 font-bold text-lg">
+                        Promo for you
+                     </h3>
+                     <p class="text-center text-xs">
+                        Coupons will be updated every weeks. <br />
+                        Check them out!
+                     </p>
+                  </div>
+                  <div class="flex flex-row">
+                     <div
+                        class="
+                           flex flex-col
+                           w-60
+                           bg-yellow-300
+                           rounded-xl
+                           flex-1
+                           py-10
+                           px-5
+                        "
+                     >
+                        <div class="flex flex-col items-center">
+                           <img
+                              class="w-20 h-20 rounded-full mb-5"
+                              src="../assets/food4.png"
+                              alt="spagetti"
+                           />
+                           <h3 class="font-bold">Beef Spaghetti</h3>
+                           <h3 class="font-bold">20% OFF</h3>
+                           <p class="text-center text-sm mb-5">
+                              Buy 1 Choco Oreo and get 20% off for Beef
+                              Spaghetti
+                           </p>
+                           <div
+                              class="
+                                 flex flex-col
+                                 items-center
+                                 bg-yellow-300
+                                 h-20
+                                 w-60
+                                 rounded-b-xl
+                                 space-y-3
+                                 border-t-2 border-dashed border-black
+                              "
+                           >
+                              <p class="uppercase text-sm mt-3">coupon code</p>
+                              <h2 class="font-bold text-2xl">FNPR15RG</h2>
+                              <p class="text-sm">
+                                 Valid untill October 10th 2020
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="flex flex-row">
+                        <div class="bg-black w-5 my-10 rounded-r-2xl"></div>
+                        <div
+                           class="bg-yellow-900 w-3 my-16 rounded-r-2xl"
+                        ></div>
+                     </div>
+                  </div>
+                  <button
+                     class="
+                        py-3
+                        bg-yellow-900
+                        rounded-xl
+                        text-white
+                        font-semibold
+                        px-10
+                        -ml-7
+                        focus:outline-none
+                        w-60
+                     "
+                  >
+                     Apply Coupon
+                  </button>
+                  <div class="flex flex-col pt-12 pb-16">
+                     <h4 class="font-bold text-gray-600">
+                        Terms and Conditions
+                     </h4>
+                     <ol class="list-decimal text-sm">
+                        <li>You can only apply 1 coupon per day</li>
+                        <li>It only for dine in</li>
+                        <li>Buy 1 get 1 only for new user</li>
+                        <li>Should make member card to apply coupon</li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="kanan flex-1 border-t-2 px-44 py-10 flex-col">
+                  <div class="mb-16">
+                     <ul class="flex flex-row justify-between">
+                        <li
+                           class="
+                              text-red-900
+                              capitalize
+                              font-bold
+                              border-b-2 border-red-900
+                              shadow-xl
+                              px-3
+                           "
+                        >
+                           <a href="#">favorite product</a>
+                        </li>
+                        <li class="capitalize text-gray-400">
+                           <a href="">Coffee</a>
+                        </li>
+                        <li class="capitalize text-gray-400">
+                           <a href="">Non Coffee</a>
+                        </li>
+                        <li class="capitalize text-gray-400">
+                           <a href="">Foods</a>
+                        </li>
+                        <li class="capitalize text-gray-400">
+                           <a href="">Add-on</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="flex flex-row justify-between mb-10">
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                  </div>
+                  <div class="flex flex-row justify-between mb-10">
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                  </div>
+                  <div class="flex flex-row justify-between mb-10">
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                     <div
+                        class="
+                           bg-white
+                           px-6
+                           py-5
+                           rounded-3xl
+                           flex flex-col
+                           justify-center
+                           items-center
+                           shadow-2xl
+                        "
+                     >
+                        <img
+                           class="rounded-full w-28 h-28"
+                           src="../assets/food4.png"
+                           alt="food"
+                        />
+                        <h2 class="font-bold text-xl w-28 text-center">
+                           Veggie tomato mix
+                        </h2>
+                        <p class="text-red-900 font-semibold">IDR 34.000</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </article>
+      </section>
+      <section class="bg-gray-50">
+         <article
+            class="px-32 py-28 flex flex-row justify-between items-center"
+         >
+            <div class="flex flex-col">
+               <div class="flex flex-row items-center">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h4 class="font-semibold ml-5">Coffee Shop</h4>
+               </div>
+               <div class="my-8 text-sm">
+                  <p class="font-medium text-gray-500">
+                     Coffee Shop is a store that sells some good <br />
+                     meals, and especially coffee. We provide <br />
+                     high quality beans
+                  </p>
+               </div>
+               <div class="flex flex-row w-36 justify-between">
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-facebook-f"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-twitter"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-instagram"></span>
+                  </div>
+               </div>
+               <div>
+                  <p class="text-gray-400 text-sm mt-5">©2020CoffeeStore</p>
+               </div>
+            </div>
+            <div class="flex flex-row">
+               <div class="flex flex-col mr-24">
+                  <h4 class="font-semibold">Product</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Download</a></li>
+                     <li><a href="">Pricing</a></li>
+                     <li><a href="">Locations</a></li>
+                     <li><a href="">Countries</a></li>
+                     <li><a href="">Blog</a></li>
+                  </ul>
+               </div>
+               <div class="flex flex-col">
+                  <h4 class="font-semibold">Engage</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Cofee Shop</a></li>
+                     <li><a href="">FAQ</a></li>
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Privacy Policy</a></li>
+                     <li><a href="">Terms of Service</a></li>
+                  </ul>
+               </div>
+            </div>
+         </article>
+      </section>
+   </body>
+</html>
