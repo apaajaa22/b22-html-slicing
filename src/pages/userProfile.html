@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link
+         href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+         rel="stylesheet"
+      />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script
+         src="https://kit.fontawesome.com/8581c0aea3.js"
+         crossorigin="anonymous"
+      ></script>
+      <link rel="stylesheet" href="../../style.css" />
+      <title>User Profile Page</title>
+   </head>
+   <body>
+      <nav class="px-32 py-8">
+         <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-row items-center space-x-3">
+               <img src="../assets/ic-logo.svg" alt="logo" />
+               <h1 class="font-bold">Coffee Shop</h1>
+            </div>
+            <div class="flex items-center">
+               <ul class="flex flex-row space-x-10">
+                  <li class="text-gray-600">
+                     <a href="home.html">Home</a>
+                  </li>
+                  <li class="font-bold text-red-900">
+                     <a href="#">Product</a>
+                  </li>
+                  <li class="text-gray-600"><a href="#">Your Cart</a></li>
+                  <li class="text-gray-600"><a href="#">History</a></li>
+               </ul>
+            </div>
+            <div class="flex flex-row space-x-10 items-center">
+               <button class="focus:outline-none">
+                  <img src="../assets/find.svg" alt="findLogo" />
+               </button>
+               <button class="focus:outline-none">
+                  <img src="../assets/ic-chat.svg" alt="iconChat" />
+               </button>
+               <a href="userProfile.html">
+                  <img
+                     class="w-8 h-8 rounded-full"
+                     src="../assets/IL-User.png"
+                     alt=""
+                  />
+               </a>
+            </div>
+         </div>
+      </nav>
+      <section>
+         <div class="bgUserProfile flex flex-col justify-center">
+            <div class="flex flex-col justify-center">
+               <h2 class="font-bold text-white mt-20 text-3xl pl-24">
+                  User Profile
+               </h2>
+               <div class="flex flex-row justify-center">
+                  <div
+                     class="
+                        flex flex-col
+                        bg-yellow-900
+                        m-20
+                        rounded-t-2xl
+                        pb-5
+                        rounded-b-2xl
+                     "
+                  >
+                     <div
+                        class="
+                           flex flex-col
+                           bg-white
+                           p-10
+                           justify-center
+                           items-center
+                           rounded-t-2xl
+                           flex-1
+                        "
+                     >
+                        <div class="h-32 w-32 relative">
+                           <img
+                              class="h-32 w-32 rounded-full"
+                              src="../assets/IL-User2.png"
+                              alt="user"
+                           />
+                           <button>
+                              <img
+                                 class="
+                                    rounded-full
+                                    h-8
+                                    p-2
+                                    w-8
+                                    bg-red-900
+                                    absolute
+                                    right-0
+                                    bottom-2
+                                 "
+                                 src="../assets/ic-pencil.svg"
+                                 alt="pencil"
+                              />
+                           </button>
+                        </div>
+                        <h4 class="font-bold text-xl mt-8 mb-1">Zulaikha</h4>
+                        <p class="text-xs mb-5">zulaikha17@gmail.com</p>
+                        <p class="text-gray-500">
+                           Has been ordered 15 products
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="
+                        flex flex-col
+                        bg-yellow-900
+                        m-20
+                        rounded-t-2xl
+                        pb-5
+                        rounded-b-2xl
+                        -ml-10
+                     "
+                  >
+                     <div
+                        class="flex flex-col bg-white p-5 flex-1 rounded-t-2xl"
+                     >
+                        <div class="flex flex-row justify-between">
+                           <h3 class="font-bold text-2xl text-gray-500">
+                              Contacts
+                           </h3>
+                           <button>
+                              <img
+                                 class="
+                                    w-10
+                                    h-10
+                                    bg-yellow-900
+                                    p-2
+                                    rounded-full
+                                 "
+                                 src="../assets/ic-pencil.svg"
+                                 alt=""
+                              />
+                           </button>
+                        </div>
+                        <div class="flex flex-row">
+                           <div class="flex flex-col w-72 mr-10">
+                              <h4 class="text-gray-400 font-semibold">
+                                 Email address :
+                              </h4>
+                              <p class="border-b-2 border-gray-500 mb-8">
+                                 zulaikha17@gmail.com
+                              </p>
+                              <h4 class="text-gray-400 font-semibold">
+                                 Delivery address :
+                              </h4>
+                              <p class="border-b-2 border-gray-500">
+                                 Iskandar Street no. 67 Block A Near Bus Stop
+                              </p>
+                           </div>
+                           <div class="w-72">
+                              <h4 class="text-gray-400 font-semibold">
+                                 Mobile number :
+                              </h4>
+                              <p class="border-b-2 border-gray-500">
+                                 (+62)813456782
+                              </p>
+                           </div>
+                           <div class="flex flex-col"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex flex-row justify-center -ml-20">
+                  <div
+                     class="
+                        flex flex-col
+                        bg-yellow-900
+                        m-20
+                        rounded-t-2xl
+                        pb-5
+                        rounded-b-2xl
+                     "
+                  >
+                     <div
+                        class="flex flex-col bg-white p-5 flex-1 rounded-t-2xl"
+                     >
+                        <div class="flex flex-row justify-between">
+                           <h3 class="font-bold text-2xl text-gray-500">
+                              Details
+                           </h3>
+                           <button>
+                              <img
+                                 class="
+                                    w-10
+                                    h-10
+                                    bg-yellow-900
+                                    p-2
+                                    rounded-full
+                                 "
+                                 src="../assets/ic-pencil.svg"
+                                 alt=""
+                              />
+                           </button>
+                        </div>
+                        <div class="flex flex-row">
+                           <div class="flex flex-col w-72 mr-10">
+                              <h4 class="text-gray-400 font-semibold">
+                                 Display name :
+                              </h4>
+                              <p class="border-b-2 border-gray-500 mb-8">
+                                 Zulaikha
+                              </p>
+                              <h4 class="text-gray-400 font-semibold">
+                                 First name :
+                              </h4>
+                              <p class="border-b-2 border-gray-500 mb-8">
+                                 Zulaikha
+                              </p>
+                              <h4 class="text-gray-400 font-semibold">
+                                 Last name :
+                              </h4>
+                              <p class="border-b-2 border-gray-500">Nirmala</p>
+                           </div>
+                           <div class="w-72">
+                              <h4 class="text-gray-400 font-semibold">
+                                 DD/MM/YY
+                              </h4>
+                              <p class="border-b-2 border-gray-500">03/04/90</p>
+                              <div class="flex flex-row items-center mt-5">
+                                 <input type="checkbox" class="w-5 h-5 mr-5" />
+                                 <p class="font-semibold text-gray-500">Male</p>
+                              </div>
+                              <div class="flex flex-row items-center mt-5">
+                                 <input type="checkbox" class="w-5 h-5 mr-5" />
+                                 <p class="font-semibold text-gray-500">
+                                    Female
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                     <h3 class="font-bold text-white text-2xl mb-5 text-center">
+                        Do you want to save the <br />
+                        change?
+                     </h3>
+                     <div
+                        class="
+                           flex flex-col
+                           justify-center
+                           items-center
+                           space-y-4
+                        "
+                     >
+                        <button
+                           class="
+                              bg-yellow-900
+                              flex flex-row
+                              justify-center
+                              px-5
+                              w-full
+                              py-3
+                              rounded-2xl
+                              items-center
+                              font-bold
+                              text-white
+                           "
+                        >
+                           Save Change
+                        </button>
+                        <button
+                           class="
+                              bg-yellow-400
+                              flex flex-row
+                              justify-between
+                              px-28
+                              py-3
+                              rounded-2xl
+                              items-center
+                              font-bold
+                              text-yellow-900
+                           "
+                        >
+                           Cancel
+                        </button>
+                        <button
+                           class="
+                              bg-gray-300
+                              flex flex-row
+                              justify-between
+                              px-5
+                              py-3
+                              w-full
+                              rounded-2xl
+                              items-center
+                           "
+                        >
+                           <p class="font-bold text-yellow-900">
+                              Edit Password
+                           </p>
+                           <i class="fas fa-chevron-right text-yellow-900"></i>
+                        </button>
+                        <button
+                           class="
+                              bg-gray-300
+                              flex flex-row
+                              justify-between
+                              px-5
+                              py-3
+                              w-full
+                              rounded-2xl
+                              items-center
+                           "
+                        >
+                           <p class="font-bold text-yellow-900">Log out</p>
+                           <i class="fas fa-chevron-right text-yellow-900"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-gray-50">
+         <article
+            class="px-32 pt-20 pb-32 flex flex-row justify-between items-center"
+         >
+            <div class="flex flex-col">
+               <div class="flex flex-row items-center">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h4 class="font-semibold ml-5">Coffee Shop</h4>
+               </div>
+               <div class="my-8 text-sm">
+                  <p class="font-medium text-gray-500">
+                     Coffee Shop is a store that sells some good <br />
+                     meals, and especially coffee. We provide <br />
+                     high quality beans
+                  </p>
+               </div>
+               <div class="flex flex-row w-36 justify-between">
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-facebook-f"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-twitter"></span>
+                  </div>
+                  <div
+                     class="
+                        w-10
+                        h-10
+                        bg-yellow-400
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     <span class="fab fa-instagram"></span>
+                  </div>
+               </div>
+               <div>
+                  <p class="text-gray-400 text-sm mt-5">©2020CoffeeStore</p>
+               </div>
+            </div>
+            <div class="flex flex-row">
+               <div class="flex flex-col mr-24">
+                  <h4 class="font-semibold">Product</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Download</a></li>
+                     <li><a href="">Pricing</a></li>
+                     <li><a href="">Locations</a></li>
+                     <li><a href="">Countries</a></li>
+                     <li><a href="">Blog</a></li>
+                  </ul>
+               </div>
+               <div class="flex flex-col">
+                  <h4 class="font-semibold">Engage</h4>
+                  <ul class="leading-8 text-sm text-gray-400">
+                     <br />
+                     <li><a href="">Cofee Shop</a></li>
+                     <li><a href="">FAQ</a></li>
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Privacy Policy</a></li>
+                     <li><a href="">Terms of Service</a></li>
+                  </ul>
+               </div>
+            </div>
+         </article>
+      </section>
+   </body>
+</html>

@@ -22,3 +22,9 @@
 .contentLeftProduct {
    width: 45%;
 }
+.bgUserProfile {
+   background-image: url("/src/assets/bg-userProfile.png");
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
