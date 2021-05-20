@@ -42,8 +42,25 @@
                <button class="focus:outline-none">
                   <img src="../assets/find.svg" alt="findLogo" />
                </button>
-               <button class="focus:outline-none">
+               <button class="focus:outline-none relative">
                   <img src="../assets/ic-chat.svg" alt="iconChat" />
+                  <p
+                     class="
+                        absolute
+                        -top-2
+                        -left-2
+                        bg-yellow-900
+                        text-xs text-white
+                        w-4
+                        h-4
+                        rounded-full
+                        flex
+                        justify-center
+                        items-center
+                     "
+                  >
+                     1
+                  </p>
                </button>
                <a href="userProfile.html">
                   <img
@@ -164,7 +181,12 @@
                      <h4 class="text-white font-bold">Payment method</h4>
                      <div class="bg-white p-5 rounded-xl mt-5">
                         <div class="flex flex-row items-center space-x-4">
-                           <input class="mb-6" type="checkbox" />
+                           <input
+                              class="mb-3 w-4 h-4 radio"
+                              id="radio"
+                              type="radio"
+                           />
+                           <label for="radio" class="radio mb-3"></label>
                            <div
                               class="
                                  flex flex-row
@@ -193,7 +215,12 @@
                            </div>
                         </div>
                         <div class="flex flex-row items-center space-x-4">
-                           <input class="mb-6" type="checkbox" />
+                           <input
+                              class="mb-3 w-4 h-4 radio1"
+                              id="radio1"
+                              type="radio"
+                           />
+                           <label for="radio1" class="radio1 mb-3"></label>
                            <div
                               class="
                                  flex flex-row
@@ -222,7 +249,12 @@
                            </div>
                         </div>
                         <div class="flex flex-row items-center space-x-4">
-                           <input class="mb-6" type="checkbox" />
+                           <input
+                              class="mb-3 w-4 h-4 radio2"
+                              id="radio2"
+                              type="radio"
+                           />
+                           <label for="radio2" class="radio2 mb-3"></label>
                            <div class="flex flex-row items-center mb-3 flex-1">
                               <div
                                  class="

@@ -80,12 +80,7 @@
                </h2>
                <h6 class="text-xs text-white">Select item to delete</h6>
             </div>
-            <a
-               href="history2.html"
-               class="text-white float-right hover:underline"
-            >
-               Select All
-            </a>
+            <a class="text-white float-right hover:underline"> Delete All </a>
             <div class="flex flex-col mt-24 space-y-8">
                <div class="flex flex-row justify-between">
                   <div
@@ -621,6 +616,53 @@
                </div>
             </div>
          </article>
+      </section>
+      <section>
+         <div
+            class="
+               modal
+               w-screen
+               min-h-screen
+               flex flex-col flex-1
+               justify-center
+               items-center
+            "
+         >
+            <div class="bg-white modal-wrapper rounded-lg flex flex-col p-10">
+               <p class="flex text-center justify-center font-medium">
+                  Are you sure want to delete the selected items?
+               </p>
+               <div class="flex flex-row justify-between mt-8">
+                  <a
+                     href="history2.html"
+                     class="
+                        bg-gray-100
+                        text-yellow-900
+                        font-bold
+                        border-2 border-yellow-900
+                        px-8
+                        py-2
+                        rounded-xl
+                     "
+                  >
+                     Cancel
+                  </a>
+                  <button
+                     class="
+                        bg-yellow-900
+                        text-white
+                        font-bold
+                        border-2 border-yellow-900
+                        px-8
+                        py-2
+                        rounded-xl
+                     "
+                  >
+                     Delete
+                  </button>
+               </div>
+            </div>
+         </div>
       </section>
    </body>
 </html>

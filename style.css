@@ -40,3 +40,143 @@
    background-position: center;
    height: 100%;
 }
+
+.cb {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 3px;
+}
+
+input.cb {
+   display: none;
+}
+input.cb:checked + label.cb {
+   background-color: #6a4029;
+   position: relative;
+}
+input.cb:checked + label.cb::after {
+   font-family: "Font Awesome 5 Free";
+   color: white;
+   content: "\2713";
+   position: absolute;
+   top: -5px;
+   right: 0px;
+}
+.cb1 {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 3px;
+}
+input.cb1 {
+   display: none;
+}
+input.cb1:checked + label.cb1 {
+   background-color: #6a4029;
+   position: relative;
+}
+input.cb1:checked + label.cb1::after {
+   font-family: "Font Awesome 5 Free";
+   color: white;
+   content: "\2713";
+   position: absolute;
+   top: -5px;
+   right: 0px;
+}
+.cb2 {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 3px;
+}
+input.cb2 {
+   display: none;
+}
+input.cb2:checked + label.cb2 {
+   background-color: #6a4029;
+   position: relative;
+}
+input.cb2:checked + label.cb2::after {
+   font-family: "Font Awesome 5 Free";
+   color: white;
+   content: "\2713";
+   position: absolute;
+   top: -5px;
+   right: 0px;
+}
+.modal {
+   background-color: rgba(0, 0, 0, 0.5);
+   position: absolute;
+   top: 0;
+}
+.modal .modal-wrapper {
+   width: 25rem;
+   height: 12rem;
+}
+.radio {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 10px;
+}
+input.radio {
+   display: none;
+}
+input.radio:checked + label.radio {
+   background-color: white;
+   position: relative;
+}
+input.radio:checked + label.radio::after {
+   font-family: "Font Awesome 5 Free";
+   color: #6a4029;
+   content: "\2022";
+   font-size: 40px;
+   position: absolute;
+   top: -25px;
+   right: -1px;
+}
+.radio1 {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 10px;
+}
+input.radio1 {
+   display: none;
+}
+input.radio1:checked + label.radio1 {
+   background-color: white;
+   position: relative;
+}
+input.radio1:checked + label.radio1::after {
+   font-family: "Font Awesome 5 Free";
+   color: #6a4029;
+   content: "\2022";
+   font-size: 40px;
+   position: absolute;
+   top: -25px;
+   right: -1px;
+}
+.radio2 {
+   width: 18px;
+   height: 18px;
+   border: 3px solid #6a4029;
+   border-radius: 10px;
+}
+input.radio2 {
+   display: none;
+}
+input.radio2:checked + label.radio2 {
+   background-color: white;
+   position: relative;
+}
+input.radio2:checked + label.radio2::after {
+   font-family: "Font Awesome 5 Free";
+   color: #6a4029;
+   content: "\2022";
+   font-size: 40px;
+   position: absolute;
+   top: -25px;
+   right: -1px;
+}
