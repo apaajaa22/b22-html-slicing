@@ -16,469 +16,456 @@
       <title>Product Page</title>
    </head>
    <body>
-      <nav class="px-32 py-8">
-         <div class="flex flex-row justify-between items-center">
-            <div class="flex flex-row items-center space-x-3">
-               <img src="../assets/ic-logo.svg" alt="logo" />
-               <h1 class="font-bold">Coffee Shop</h1>
-            </div>
-            <div class="flex items-center">
-               <ul class="flex flex-row space-x-10">
-                  <li class="text-gray-600">
-                     <a href="home.html">Home</a>
-                  </li>
-                  <li class="font-bold text-red-900">
-                     <a href="product.html">Product</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="cart.html">Your Cart</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="history.html">History</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="flex flex-row space-x-10 items-center">
-               <button class="focus:outline-none">
-                  <img src="../assets/find.svg" alt="findLogo" />
-               </button>
-               <button class="focus:outline-none relative">
-                  <img src="../assets/ic-chat.svg" alt="iconChat" />
-                  <p
-                     class="
-                        absolute
-                        -top-2
-                        -left-2
-                        bg-yellow-900
-                        text-xs text-white
-                        w-4
-                        h-4
-                        rounded-full
-                        flex
-                        justify-center
-                        items-center
-                     "
-                  >
-                     1
-                  </p>
-               </button>
-               <a href="userProfile.html">
-                  <img
-                     class="w-8 h-8 rounded-full"
-                     src="../assets/IL-User.png"
-                     alt=""
-                  />
-               </a>
-            </div>
-         </div>
-      </nav>
-      <section>
-         <article>
-            <div class="flex flex-row">
-               <div
-                  class="
-                     kiri
-                     w-96
-                     flex flex-col
-                     justify-center
-                     items-center
-                     space-y-8
-                     border-t-2 border-r-2
-                     pt-3
-                  "
-               >
-                  <div class="flex flex-col items-center space-y-8 -mt-40">
-                     <h3 class="text-red-900 font-bold text-lg">
-                        Promo for you
-                     </h3>
-                     <p class="text-center text-xs">
-                        Coupons will be updated every weeks. <br />
-                        Check them out!
-                     </p>
-                  </div>
-                  <div class="flex flex-row">
-                     <div
+      <header>
+         <nav class="px-32 py-8">
+            <div class="flex flex-row justify-between items-center">
+               <div class="flex flex-row items-center space-x-3">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h1 class="font-bold">Coffee Shop</h1>
+               </div>
+               <div class="flex items-center">
+                  <ul class="flex flex-row space-x-10">
+                     <li class="text-gray-600">
+                        <a href="home.html">Home</a>
+                     </li>
+                     <li class="font-bold text-red-900">
+                        <a href="product.html">Product</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="cart.html">Your Cart</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="history.html">History</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex flex-row space-x-10 items-center">
+                  <button class="focus:outline-none">
+                     <img src="../assets/find.svg" alt="findLogo" />
+                  </button>
+                  <button class="focus:outline-none relative">
+                     <img src="../assets/ic-chat.svg" alt="iconChat" />
+                     <p
                         class="
-                           flex flex-col
-                           w-60
-                           bg-yellow-300
-                           rounded-xl
-                           flex-1
-                           py-10
-                           px-5
+                           absolute
+                           -top-2
+                           -left-2
+                           bg-yellow-900
+                           text-xs text-white
+                           w-4
+                           h-4
+                           rounded-full
+                           flex
+                           justify-center
+                           items-center
                         "
                      >
-                        <div class="flex flex-col items-center">
-                           <img
-                              class="w-20 h-20 rounded-full mb-5"
-                              src="../assets/food4.png"
-                              alt="spagetti"
-                           />
-                           <h3 class="font-bold">Beef Spaghetti</h3>
-                           <h3 class="font-bold">20% OFF</h3>
-                           <p class="text-center text-sm mb-5">
-                              Buy 1 Choco Oreo and get 20% off for Beef
-                              Spaghetti
-                           </p>
-                           <div
-                              class="
-                                 flex flex-col
-                                 items-center
-                                 bg-yellow-300
-                                 h-20
-                                 w-60
-                                 rounded-b-xl
-                                 space-y-3
-                                 border-t-2 border-dashed border-black
-                              "
-                           >
-                              <p class="uppercase text-sm mt-3">coupon code</p>
-                              <h2 class="font-bold text-2xl">FNPR15RG</h2>
-                              <p class="text-sm">
-                                 Valid untill October 10th 2020
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="flex flex-row">
-                        <div class="bg-black w-5 my-10 rounded-r-2xl"></div>
-                        <div
-                           class="bg-yellow-800 w-3 my-16 rounded-r-2xl"
-                        ></div>
-                     </div>
-                  </div>
-                  <button
+                        1
+                     </p>
+                  </button>
+                  <a href="userProfile.html">
+                     <img
+                        class="w-8 h-8 rounded-full"
+                        src="../assets/IL-User.png"
+                        alt=""
+                     />
+                  </a>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section class="flex flex-row">
+            <div
+               class="
+                  kiri
+                  w-96
+                  flex flex-col
+                  justify-center
+                  items-center
+                  space-y-8
+                  border-t-2 border-r-2
+                  pt-3
+               "
+            >
+               <div class="flex flex-col items-center space-y-8 -mt-40">
+                  <h3 class="text-red-900 font-bold text-lg">Promo for you</h3>
+                  <p class="text-center text-xs">
+                     Coupons will be updated every weeks. <br />
+                     Check them out!
+                  </p>
+               </div>
+               <div class="flex flex-row">
+                  <div
                      class="
-                        py-3
-                        bg-yellow-800
-                        rounded-xl
-                        text-white
-                        font-semibold
-                        px-10
-                        -ml-7
-                        focus:outline-none
+                        flex flex-col
                         w-60
+                        bg-yellow-300
+                        rounded-xl
+                        flex-1
+                        py-10
+                        px-5
                      "
                   >
-                     Apply Coupon
-                  </button>
-                  <div class="flex flex-col pt-12 pb-16">
-                     <h4 class="font-bold text-gray-600">
-                        Terms and Conditions
-                     </h4>
-                     <ol class="list-decimal text-sm">
-                        <li>You can only apply 1 coupon per day</li>
-                        <li>It only for dine in</li>
-                        <li>Buy 1 get 1 only for new user</li>
-                        <li>Should make member card to apply coupon</li>
-                     </ol>
-                  </div>
-               </div>
-               <div class="kanan flex-1 border-t-2 px-44 py-10 flex-col">
-                  <div class="mb-16">
-                     <ul class="flex flex-row justify-between">
-                        <li
+                     <div class="flex flex-col items-center">
+                        <img
+                           class="w-20 h-20 rounded-full mb-5"
+                           src="../assets/food4.png"
+                           alt="spagetti"
+                        />
+                        <h3 class="font-bold">Beef Spaghetti</h3>
+                        <h3 class="font-bold">20% OFF</h3>
+                        <p class="text-center text-sm mb-5">
+                           Buy 1 Choco Oreo and get 20% off for Beef Spaghetti
+                        </p>
+                        <div
                            class="
-                              text-red-900
-                              capitalize
-                              font-bold
-                              border-b-2 border-red-900
-                              shadow-xl
-                              px-3
+                              flex flex-col
+                              items-center
+                              bg-yellow-300
+                              h-20
+                              w-60
+                              rounded-b-xl
+                              space-y-3
+                              border-t-2 border-dashed border-black
                            "
                         >
-                           <a href="#">favorite product</a>
-                        </li>
-                        <li class="capitalize text-gray-400">
-                           <a href="">Coffee</a>
-                        </li>
-                        <li class="capitalize text-gray-400">
-                           <a href="">Non Coffee</a>
-                        </li>
-                        <li class="capitalize text-gray-400">
-                           <a href="">Foods</a>
-                        </li>
-                        <li class="capitalize text-gray-400">
-                           <a href="">Add-on</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="flex flex-row justify-between mb-10">
-                     <a
-                        href="productDetail.html"
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food5.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Veggie tomato mix
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 34.000</p>
-                     </a>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food6.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Hazelnut Latte
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 25.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food7.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Summer fried rice
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 32.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food1.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Creamy Ice Latte
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 27.000</p>
+                           <p class="uppercase text-sm mt-3">coupon code</p>
+                           <h2 class="font-bold text-2xl">FNPR15RG</h2>
+                           <p class="text-sm">Valid untill October 10th 2020</p>
+                        </div>
                      </div>
                   </div>
-                  <div class="flex flex-row justify-between mb-10">
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food8.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Drum Sticks
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 34.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food9.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Salty Rice
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 20.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food7.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Summer fried rice
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 32.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food1.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Creamy Ice Latte
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 27.000</p>
-                     </div>
+                  <div class="flex flex-row">
+                     <div class="bg-black w-5 my-10 rounded-r-2xl"></div>
+                     <div class="bg-yellow-800 w-3 my-16 rounded-r-2xl"></div>
                   </div>
-                  <div class="flex flex-row justify-between mb-10">
-                     <div
+               </div>
+               <button
+                  class="
+                     py-3
+                     bg-yellow-800
+                     rounded-xl
+                     text-white
+                     font-semibold
+                     px-10
+                     -ml-7
+                     focus:outline-none
+                     w-60
+                  "
+               >
+                  Apply Coupon
+               </button>
+               <div class="flex flex-col pt-12 pb-16">
+                  <h4 class="font-bold text-gray-600">Terms and Conditions</h4>
+                  <ol class="list-decimal text-sm">
+                     <li>You can only apply 1 coupon per day</li>
+                     <li>It only for dine in</li>
+                     <li>Buy 1 get 1 only for new user</li>
+                     <li>Should make member card to apply coupon</li>
+                  </ol>
+               </div>
+            </div>
+            <div class="kanan flex-1 border-t-2 px-44 py-10 flex-col">
+               <div class="mb-16">
+                  <ul class="flex flex-row justify-between">
+                     <li
                         class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
+                           text-red-900
+                           capitalize
+                           font-bold
+                           border-b-2 border-red-900
+                           shadow-xl
+                           px-3
                         "
                      >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food5.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Veggie tomato mix
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 34.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food6.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Hazelnut Latte
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 25.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food7.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Summer fried rice
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 32.000</p>
-                     </div>
-                     <div
-                        class="
-                           bg-white
-                           px-6
-                           py-5
-                           rounded-3xl
-                           flex flex-col
-                           justify-center
-                           items-center
-                           shadow-2xl
-                        "
-                     >
-                        <img
-                           class="rounded-full w-28 h-28 mb-1"
-                           src="../assets/food1.png"
-                           alt="food"
-                        />
-                        <h2 class="font-bold text-xl w-28 text-center flex-1">
-                           Creamy Ice Latte
-                        </h2>
-                        <p class="text-red-900 font-semibold">IDR 27.000</p>
-                     </div>
+                        <a href="#">favorite product</a>
+                     </li>
+                     <li class="capitalize text-gray-400">
+                        <a href="">Coffee</a>
+                     </li>
+                     <li class="capitalize text-gray-400">
+                        <a href="">Non Coffee</a>
+                     </li>
+                     <li class="capitalize text-gray-400">
+                        <a href="">Foods</a>
+                     </li>
+                     <li class="capitalize text-gray-400">
+                        <a href="">Add-on</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="grid grid-flow-col grid-cols-4 grid-rows-3 gap-10">
+                  <a
+                     href="productDetail.html"
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food5.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Veggie tomato mix
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 34.000</p>
+                  </a>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food6.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Hazelnut Latte
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 25.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food7.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Summer fried rice
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 32.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food1.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Creamy Ice Latte
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 27.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food8.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Drum Sticks
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 34.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food9.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Salty Rice
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 20.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food7.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Summer fried rice
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 32.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food1.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Creamy Ice Latte
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 27.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food5.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Veggie tomato mix
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 34.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food6.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Hazelnut Latte
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 25.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food7.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Summer fried rice
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 32.000</p>
+                  </div>
+                  <div
+                     class="
+                        bg-white
+                        px-6
+                        py-5
+                        rounded-3xl
+                        flex flex-col
+                        justify-center
+                        items-center
+                        shadow-xl
+                     "
+                  >
+                     <img
+                        class="rounded-full w-28 h-28 mb-1"
+                        src="../assets/food1.png"
+                        alt="food"
+                     />
+                     <h2 class="font-bold text-xl w-28 text-center flex-1">
+                        Creamy Ice Latte
+                     </h2>
+                     <p class="text-red-900 font-semibold">IDR 27.000</p>
                   </div>
                </div>
             </div>
-         </article>
-      </section>
-      <section class="bg-gray-50">
+         </section>
+      </main>
+      <footer class="bg-gray-50">
          <article
             class="px-32 py-28 flex flex-row justify-between items-center"
          >
@@ -564,6 +551,6 @@
                </div>
             </div>
          </article>
-      </section>
+      </footer>
    </body>
 </html>

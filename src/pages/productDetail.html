@@ -16,396 +16,408 @@
       <title>Product Detail Page</title>
    </head>
    <body>
-      <nav class="px-32 py-7">
-         <div class="flex flex-row justify-between items-center">
-            <div class="flex flex-row items-center space-x-3">
-               <img src="../assets/ic-logo.svg" alt="logo" />
-               <h1 class="font-bold">Coffee Shop</h1>
-            </div>
-            <div class="flex items-center">
-               <ul class="flex flex-row space-x-10">
-                  <li class="text-gray-600">
-                     <a href="home.html">Home</a>
-                  </li>
-                  <li class="font-bold text-red-900">
-                     <a href="product.html">Product</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="cart.html">Your Cart</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="history.html">History</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="flex flex-row space-x-10 items-center">
-               <div
-                  class="
-                     flex flex-row
-                     justify-center
-                     items-center
-                     px-3
-                     bg-gray-300
-                     rounded-full
-                     py-2
-                  "
-               >
-                  <button class="focus:outline-none">
-                     <img
-                        class="mr-3"
-                        src="../assets/find.svg"
-                        alt="findLogo"
-                     />
-                  </button>
-                  <input
-                     class="bg-gray-300 focus:outline-none"
-                     type="text"
-                     placeholder="search"
-                  />
+      <header>
+         <nav class="px-32 py-7">
+            <div class="flex flex-row justify-between items-center">
+               <div class="flex flex-row items-center space-x-3">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h1 class="font-bold">Coffee Shop</h1>
                </div>
-               <button class="focus:outline-none relative">
-                  <img src="../assets/ic-chat.svg" alt="iconChat" />
-                  <p
+               <div class="flex items-center">
+                  <ul class="flex flex-row space-x-10">
+                     <li class="text-gray-600">
+                        <a href="home.html">Home</a>
+                     </li>
+                     <li class="font-bold text-red-900">
+                        <a href="product.html">Product</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="cart.html">Your Cart</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="history.html">History</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex flex-row space-x-10 items-center">
+                  <div
                      class="
-                        absolute
-                        -top-2
-                        -left-2
-                        bg-yellow-900
-                        text-xs text-white
-                        w-4
-                        h-4
-                        rounded-full
-                        flex
+                        flex flex-row
                         justify-center
                         items-center
-                     "
-                  >
-                     1
-                  </p>
-                  <p
-                     class="
-                        absolute
-                        -top-2
-                        -left-2
-                        bg-yellow-900
-                        text-xs text-white
-                        w-4
-                        h-4
+                        px-3
+                        bg-gray-300
                         rounded-full
-                        flex
-                        justify-center
-                        items-center
-                        animate-ping
-                        opacity-40
+                        py-2
                      "
                   >
-                     1
-                  </p>
-               </button>
-               <a href="userProfile.html">
-                  <img
-                     class="w-8 h-8 rounded-full"
-                     src="../assets/IL-User.png"
-                     alt=""
-                  />
-               </a>
-            </div>
-         </div>
-      </nav>
-      <section>
-         <article>
-            <div class="flex flex-row bg-gray-200 px-32 py-8">
-               <div class="kiri contentLeftProduct">
-                  <div class="mb-20 text-lg">
-                     <p>
-                        Favorite & Promo
-                        <span class="text-red-900 font-medium"
-                           >> Cold Brew</span
-                        >
-                     </p>
-                  </div>
-                  <div class="flex flex-col justify-center items-center -ml-44">
-                     <img
-                        class="rounded-full w-80 h-80 mb-10"
-                        src="../assets/food10.png"
-                        alt="kopi"
+                     <button class="focus:outline-none">
+                        <img
+                           class="mr-3"
+                           src="../assets/find.svg"
+                           alt="findLogo"
+                        />
+                     </button>
+                     <input
+                        class="bg-gray-300 focus:outline-none"
+                        type="text"
+                        placeholder="search"
                      />
-                     <h2 class="uppercase text-5xl font-bold mb-3">
-                        cold brew
-                     </h2>
-                     <p class="text-3xl font-medium mb-10">IDR 30.000</p>
-                     <button
+                  </div>
+                  <button class="focus:outline-none relative">
+                     <img src="../assets/ic-chat.svg" alt="iconChat" />
+                     <p
                         class="
+                           absolute
+                           -top-2
+                           -left-2
                            bg-yellow-900
-                           text-white
-                           px-24
-                           rounded-xl
-                           py-4
-                           font-bold
-                           mb-5
-                           focus:outline-none
+                           text-xs text-white
+                           w-4
+                           h-4
+                           rounded-full
+                           flex
+                           justify-center
+                           items-center
                         "
                      >
-                        Add to Cart
-                     </button>
-                     <button
+                        1
+                     </p>
+                     <p
                         class="
-                           bg-yellow-400
-                           text-red-900
-                           px-24
-                           rounded-xl
-                           py-4
-                           font-bold
-                           focus:outline-none
+                           absolute
+                           -top-2
+                           -left-2
+                           bg-yellow-900
+                           text-xs text-white
+                           w-4
+                           h-4
+                           rounded-full
+                           flex
+                           justify-center
+                           items-center
+                           animate-ping
+                           opacity-40
                         "
                      >
-                        Ask a Staff
-                     </button>
-                  </div>
+                        1
+                     </p>
+                  </button>
+                  <a href="userProfile.html">
+                     <img
+                        class="w-8 h-8 rounded-full"
+                        src="../assets/IL-User.png"
+                        alt=""
+                     />
+                  </a>
                </div>
-               <div class="kanan flex-1">
-                  <div class="bg-white rounded-2xl p-14 mt-5">
-                     <p class="text-red-900 text-2xl mb-10">
-                        Delivery only on
-                        <span class="font-bold"
-                           >Monday to <br />
-                           friday</span
-                        >
-                        at
-                        <span class="font-bold">1 - 7 pm</span>
-                     </p>
-                     <p class="text-red-900 text-2xl mr-16 mb-16">
-                        Cold brewing is a method of brewing that combines ground
-                        coffee and cool water and uses time instead of heat to
-                        extract the flavor. It is brewed in small batches and
-                        steeped for as long as 48 hours.
-                     </p>
-                     <h4 class="font-bold text-2xl text-center mb-10">
-                        Choose a size
-                     </h4>
-                     <div class="flex justify-center">
-                        <div
-                           class="
-                              flex flex-row
-                              w-96
-                              justify-between
-                              items-center
-                           "
-                        >
-                           <button
-                              class="
-                                 transform
-                                 hover:scale-110
-                                 bg-yellow-400
-                                 text-2xl
-                                 font-bold
-                                 w-16
-                                 h-16
-                                 rounded-full
-                                 focus:outline-none
-                              "
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section>
+            <article>
+               <div class="flex flex-row bg-gray-200 px-32 py-8">
+                  <div class="kiri contentLeftProduct">
+                     <div class="mb-20 text-lg">
+                        <p>
+                           Favorite & Promo
+                           <span class="text-red-900 font-medium"
+                              >> Cold Brew</span
                            >
-                              R</button
-                           ><button
-                              class="
-                                 transform
-                                 hover:scale-110
-                                 bg-yellow-400
-                                 text-2xl
-                                 font-bold
-                                 w-16
-                                 h-16
-                                 rounded-full
-                                 focus:outline-none
-                              "
-                           >
-                              L</button
-                           ><button
-                              class="
-                                 transform
-                                 hover:scale-110
-                                 bg-yellow-400
-                                 text-2xl
-                                 font-bold
-                                 w-16
-                                 h-16
-                                 rounded-full
-                                 focus:outline-none
-                              "
-                           >
-                              XL
-                           </button>
-                        </div>
+                        </p>
                      </div>
-                  </div>
-                  <div>
-                     <h4 class="mt-10 font-bold text-center text-xl">
-                        Choose Delivery Methods
-                     </h4>
-                     <div class="flex flex-row space-x-4 justify-center mt-5">
+                     <div
+                        class="flex flex-col justify-center items-center -ml-44"
+                     >
+                        <img
+                           class="rounded-full w-72 h-72 mb-10"
+                           src="../assets/food10.png"
+                           alt="kopi"
+                        />
+                        <h2 class="uppercase text-4xl font-bold mb-3">
+                           cold brew
+                        </h2>
+                        <p class="text-2xl font-medium mb-10">IDR 30.000</p>
                         <button
                            class="
                               bg-yellow-900
-                              px-5
-                              py-3
-                              rounded-lg
                               text-white
+                              px-24
+                              rounded-xl
+                              py-4
                               font-bold
-                              shadow-xl
+                              mb-5
                               focus:outline-none
                            "
                         >
-                           Dine in
+                           Add to Cart
                         </button>
                         <button
                            class="
-                              bg-gray-100
-                              px-5
-                              py-3
-                              rounded-lg
-                              text-gray-400
-                              disabled:opacity-50
-                              border-2 border-gray-300
+                              bg-yellow-400
+                              text-red-900
+                              px-24
+                              rounded-xl
+                              py-4
+                              font-bold
+                              focus:outline-none
                            "
-                           disabled
                         >
-                           Door Delivery
-                        </button>
-                        <button
-                           class="
-                              bg-gray-100
-                              px-5
-                              py-3
-                              rounded-lg
-                              text-gray-400
-                              disabled:opacity-50
-                              border-2 border-gray-300
-                           "
-                           disabled
-                        >
-                           Pick up
+                           Ask a Staff
                         </button>
                      </div>
-                     <div class="flex flex-row space-x-4 justify-center mt-10">
-                        <p class="text-xl">Set time :</p>
-                        <input
-                           class="
-                              w-64
-                              border-b-2 border-gray-600
-                              bg-gray-200
-                              focus:outline-none
-                              mb-40
-                           "
-                           type="text"
-                           placeholder="Enter the time you’ll arrived"
-                        />
+                  </div>
+                  <div class="kanan flex-1">
+                     <div class="bg-white rounded-xl p-8 mt-5 m-14">
+                        <p class="text-red-900 text-xl mb-10">
+                           Delivery only on
+                           <span class="font-bold"
+                              >Monday to <br />
+                              friday</span
+                           >
+                           at
+                           <span class="font-bold">1 - 7 pm</span>
+                        </p>
+                        <p class="text-red-900 text-xl mr-16 mb-8">
+                           Cold brewing is a method of brewing that combines
+                           ground coffee and cool water and uses time instead of
+                           heat to extract the flavor. It is brewed in small
+                           batches and steeped for as long as 48 hours.
+                        </p>
+                        <h4 class="font-bold text-2xl text-center mb-5">
+                           Choose a size
+                        </h4>
+                        <div class="flex justify-center">
+                           <div
+                              class="
+                                 flex flex-row
+                                 w-96
+                                 justify-between
+                                 items-center
+                              "
+                           >
+                              <button
+                                 class="
+                                    transform
+                                    hover:scale-110
+                                    bg-yellow-400
+                                    text-2xl
+                                    font-bold
+                                    w-16
+                                    h-16
+                                    rounded-full
+                                    focus:outline-none
+                                 "
+                              >
+                                 R</button
+                              ><button
+                                 class="
+                                    transform
+                                    hover:scale-110
+                                    bg-yellow-400
+                                    text-2xl
+                                    font-bold
+                                    w-16
+                                    h-16
+                                    rounded-full
+                                    focus:outline-none
+                                 "
+                              >
+                                 L</button
+                              ><button
+                                 class="
+                                    transform
+                                    hover:scale-110
+                                    bg-yellow-400
+                                    text-2xl
+                                    font-bold
+                                    w-16
+                                    h-16
+                                    rounded-full
+                                    focus:outline-none
+                                 "
+                              >
+                                 XL
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <h4 class="-mt-5 font-bold text-center text-xl">
+                           Choose Delivery Methods
+                        </h4>
+                        <div
+                           class="flex flex-row space-x-4 justify-center mt-5"
+                        >
+                           <button
+                              class="
+                                 bg-yellow-900
+                                 px-5
+                                 py-3
+                                 rounded-lg
+                                 text-white
+                                 font-bold
+                                 shadow-xl
+                                 focus:outline-none
+                              "
+                           >
+                              Dine in
+                           </button>
+                           <button
+                              class="
+                                 bg-gray-100
+                                 px-5
+                                 py-3
+                                 rounded-lg
+                                 text-gray-400
+                                 disabled:opacity-50
+                                 border-2 border-gray-300
+                                 cursor-not-allowed
+                              "
+                              disabled
+                           >
+                              Door Delivery
+                           </button>
+                           <button
+                              class="
+                                 bg-gray-100
+                                 px-5
+                                 py-3
+                                 rounded-lg
+                                 text-gray-400
+                                 disabled:opacity-50
+                                 border-2 border-gray-300
+                                 cursor-not-allowed
+                              "
+                              disabled
+                           >
+                              Pick up
+                           </button>
+                        </div>
+                        <div
+                           class="flex flex-row space-x-4 justify-center mt-10"
+                        >
+                           <p class="text-xl">Set time :</p>
+                           <input
+                              class="
+                                 w-64
+                                 border-b-2 border-gray-600
+                                 bg-gray-200
+                                 focus:outline-none
+                                 mb-40
+                              "
+                              type="text"
+                              placeholder="Enter the time you’ll arrived"
+                           />
+                        </div>
                      </div>
                   </div>
                </div>
-            </div>
-         </article>
-      </section>
-      <section>
-         <div
-            class="
-               flex flex-row
-               justify-between
-               items-center
-               -my-20
-               mx-52
-               space-x-10
-            "
-         >
+            </article>
+         </section>
+         <section>
             <div
                class="
                   flex flex-row
                   justify-between
                   items-center
-                  rounded-xl
-                  bg-white
-                  px-24
-                  py-8
-                  shadow-2xl
-                  flex-1
+                  -my-20
+                  mx-48
+                  space-x-10
                "
             >
-               <img
-                  class="h-24 w-24 rounded-full"
-                  src="../assets/food11.png"
-                  alt="kopi"
-               />
-               <div class="flex flex-col">
-                  <h4 class="uppercase font-bold text-lg">cold brew</h4>
-                  <p>x1 (Large)</p>
-                  <p>x1 (Regular)</p>
+               <div
+                  class="
+                     flex flex-row
+                     justify-between
+                     items-center
+                     rounded-xl
+                     bg-white
+                     px-24
+                     py-8
+                     shadow-2xl
+                     flex-1
+                  "
+               >
+                  <img
+                     class="h-24 w-24 rounded-full"
+                     src="../assets/food11.png"
+                     alt="kopi"
+                  />
+                  <div class="flex flex-col">
+                     <h4 class="uppercase font-bold text-lg">cold brew</h4>
+                     <p>x1 (Large)</p>
+                     <p>x1 (Regular)</p>
+                  </div>
+                  <div class="flex flex-row">
+                     <button
+                        class="
+                           flex
+                           justify-center
+                           items-center
+                           bg-yellow-200
+                           text-3xl text-red-900
+                           font-bold
+                           rounded-full
+                           w-10
+                           h-10
+                           focus:outline-none
+                        "
+                     >
+                        -
+                     </button>
+                     <p
+                        class="
+                           flex
+                           justify-center
+                           items-center
+                           text-xl
+                           font-bold
+                           w-10
+                           h-10
+                        "
+                     >
+                        2
+                     </p>
+                     <button
+                        class="
+                           flex
+                           justify-center
+                           items-center
+                           bg-yellow-200
+                           text-3xl text-red-900
+                           font-bold
+                           rounded-full
+                           w-10
+                           h-10
+                           focus:outline-none
+                        "
+                     >
+                        +
+                     </button>
+                  </div>
                </div>
-               <div class="flex flex-row">
-                  <button
-                     class="
-                        flex
-                        justify-center
-                        items-center
-                        bg-yellow-200
-                        text-3xl text-red-900
-                        font-bold
-                        rounded-full
-                        w-10
-                        h-10
-                        focus:outline-none
-                     "
-                  >
-                     -
-                  </button>
-                  <p
-                     class="
-                        flex
-                        justify-center
-                        items-center
-                        text-xl
-                        font-bold
-                        w-10
-                        h-10
-                     "
-                  >
-                     2
-                  </p>
-                  <button
-                     class="
-                        flex
-                        justify-center
-                        items-center
-                        bg-yellow-200
-                        text-3xl text-red-900
-                        font-bold
-                        rounded-full
-                        w-10
-                        h-10
-                        focus:outline-none
-                     "
-                  >
-                     +
-                  </button>
-               </div>
+               <a
+                  href="cart.html"
+                  class="
+                     bg-yellow-400
+                     font-bold
+                     text-2xl
+                     py-16
+                     px-10
+                     rounded-xl
+                     focus:outline-none
+                     shadow-xl
+                     animate-bounce
+                  "
+               >
+                  CHECKOUT
+               </a>
             </div>
-            <a
-               href="cart.html"
-               class="
-                  bg-yellow-400
-                  font-bold
-                  text-2xl
-                  py-16
-                  px-10
-                  rounded-xl
-                  focus:outline-none
-                  shadow-xl
-                  animate-bounce
-               "
-            >
-               CHECKOUT
-            </a>
-         </div>
-      </section>
-      <section class="bg-gray-50">
+         </section>
+      </main>
+      <footer class="bg-gray-50">
          <article
             class="px-32 pt-52 pb-32 flex flex-row justify-between items-center"
          >
@@ -491,6 +503,6 @@
                </div>
             </div>
          </article>
-      </section>
+      </footer>
    </body>
 </html>

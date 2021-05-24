@@ -15,79 +15,83 @@
       <link rel="stylesheet" href="../../style.css" />
       <title>History Page</title>
    </head>
-   <body>
-      <nav class="px-32 py-8">
-         <div class="flex flex-row justify-between items-center">
-            <div class="flex flex-row items-center space-x-3">
-               <img src="../assets/ic-logo.svg" alt="logo" />
-               <h1 class="font-bold">Coffee Shop</h1>
+   <body class="overflow-y-hidden">
+      <header>
+         <nav class="px-32 py-8">
+            <div class="flex flex-row justify-between items-center">
+               <div class="flex flex-row items-center space-x-3">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h1 class="font-bold">Coffee Shop</h1>
+               </div>
+               <div class="flex items-center">
+                  <ul class="flex flex-row space-x-10">
+                     <li class="text-gray-600">
+                        <a href="home.html">Home</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="product.html">Product</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="cart.html">Your Cart</a>
+                     </li>
+                     <li class="font-bold text-red-900">
+                        <a href="history.html">History</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex flex-row space-x-10 items-center">
+                  <button class="focus:outline-none">
+                     <img src="../assets/find.svg" alt="findLogo" />
+                  </button>
+                  <button class="focus:outline-none relative">
+                     <img src="../assets/ic-chat.svg" alt="iconChat" />
+                     <p
+                        class="
+                           absolute
+                           -top-2
+                           -left-2
+                           bg-yellow-900
+                           text-xs text-white
+                           w-4
+                           h-4
+                           rounded-full
+                           flex
+                           justify-center
+                           items-center
+                        "
+                     >
+                        1
+                     </p>
+                  </button>
+                  <a href="userProfile.html">
+                     <img
+                        class="w-8 h-8 rounded-full"
+                        src="../assets/IL-User.png"
+                        alt=""
+                     />
+                  </a>
+               </div>
             </div>
-            <div class="flex items-center">
-               <ul class="flex flex-row space-x-10">
-                  <li class="text-gray-600">
-                     <a href="home.html">Home</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="product.html">Product</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="cart.html">Your Cart</a>
-                  </li>
-                  <li class="font-bold text-red-900">
-                     <a href="history.html">History</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="flex flex-row space-x-10 items-center">
-               <button class="focus:outline-none">
-                  <img src="../assets/find.svg" alt="findLogo" />
-               </button>
-               <button class="focus:outline-none relative">
-                  <img src="../assets/ic-chat.svg" alt="iconChat" />
-                  <p
-                     class="
-                        absolute
-                        -top-2
-                        -left-2
-                        bg-yellow-900
-                        text-xs text-white
-                        w-4
-                        h-4
-                        rounded-full
-                        flex
-                        justify-center
-                        items-center
-                     "
-                  >
-                     1
-                  </p>
-               </button>
-               <a href="userProfile.html">
-                  <img
-                     class="w-8 h-8 rounded-full"
-                     src="../assets/IL-User.png"
-                     alt=""
-                  />
-               </a>
-            </div>
-         </div>
-      </nav>
-      <section>
-         <div class="bgHistory px-64 py-20">
+         </nav>
+      </header>
+      <main>
+         <section class="bgHistory px-64 py-20">
             <div class="flex flex-col justify-center items-center mb-10">
                <h2 class="font-bold text-white text-2xl">
                   Let’s see what you have bought!
                </h2>
                <h6 class="text-xs text-white">Select item to delete</h6>
             </div>
-            <a
-               href="history3.html"
-               class="text-white float-right hover:underline"
-            >
-               Delete All
-            </a>
-            <div class="flex flex-col mt-24 space-y-8">
-               <div class="flex flex-row justify-between">
+            <div class="flex flex-col space-y-4">
+               <div>
+                  <a
+                     href="history2.html"
+                     class="text-white hover:underline float-right"
+                  >
+                     Select All
+                  </a>
+               </div>
+               <div class="grid grid-flow-row grid-cols-3 grid-rows-5 gap-4">
                   <div
                      class="
                         bg-white
@@ -169,8 +173,6 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="flex flex-row justify-between">
                   <div
                      class="
                         bg-white
@@ -252,8 +254,6 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="flex flex-row justify-between">
                   <div
                      class="
                         bg-white
@@ -335,8 +335,6 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="flex flex-row justify-between">
                   <div
                      class="
                         bg-white
@@ -418,8 +416,6 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="flex flex-row justify-between">
                   <div
                      class="
                         bg-white
@@ -503,9 +499,9 @@
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <section class="bg-gray-50">
+         </section>
+      </main>
+      <footer class="bg-gray-50">
          <article
             class="px-32 pt-20 pb-32 flex flex-row justify-between items-center"
          >
@@ -591,42 +587,40 @@
                </div>
             </div>
          </article>
-      </section>
-      <section>
-         <div class="modal flex flex-col flex-1 justify-center items-center">
-            <div class="bg-white modal-wrapper rounded-lg flex flex-col p-10">
-               <p class="flex text-center justify-center font-medium">
-                  Are you sure want to delete the selected items?
-               </p>
-               <div class="flex flex-row justify-between mt-8">
-                  <a
-                     href="history2.html"
-                     class="
-                        bg-gray-100
-                        text-yellow-900
-                        font-bold
-                        border-2 border-yellow-900
-                        px-8
-                        py-2
-                        rounded-xl
-                     "
-                  >
-                     Cancel
-                  </a>
-                  <button
-                     class="
-                        bg-yellow-900
-                        text-white
-                        font-bold
-                        border-2 border-yellow-900
-                        px-8
-                        py-2
-                        rounded-xl
-                     "
-                  >
-                     Delete
-                  </button>
-               </div>
+      </footer>
+      <section class="modal flex flex-col flex-1 justify-center items-center">
+         <div class="bg-white modal-wrapper rounded-lg flex flex-col p-10">
+            <p class="flex text-center justify-center font-medium">
+               Are you sure want to delete the selected items?
+            </p>
+            <div class="flex flex-row justify-between mt-8">
+               <a
+                  href="history2.html"
+                  class="
+                     bg-gray-100
+                     text-yellow-900
+                     font-bold
+                     border-2 border-yellow-900
+                     px-8
+                     py-2
+                     rounded-xl
+                  "
+               >
+                  Cancel
+               </a>
+               <button
+                  class="
+                     bg-yellow-900
+                     text-white
+                     font-bold
+                     border-2 border-yellow-900
+                     px-8
+                     py-2
+                     rounded-xl
+                  "
+               >
+                  Delete
+               </button>
             </div>
          </div>
       </section>

@@ -16,363 +16,408 @@
       <title>User Profile Page</title>
    </head>
    <body>
-      <nav class="px-32 py-8">
-         <div class="flex flex-row justify-between items-center">
-            <div class="flex flex-row items-center space-x-3">
-               <img src="../assets/ic-logo.svg" alt="logo" />
-               <h1 class="font-bold">Coffee Shop</h1>
+      <header>
+         <nav class="px-32 py-8">
+            <div class="flex flex-row justify-between items-center">
+               <div class="flex flex-row items-center space-x-3">
+                  <img src="../assets/ic-logo.svg" alt="logo" />
+                  <h1 class="font-bold">Coffee Shop</h1>
+               </div>
+               <div class="flex items-center">
+                  <ul class="flex flex-row space-x-10">
+                     <li class="text-gray-600">
+                        <a href="home.html">Home</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="product.html">Product</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="cart.html">Your Cart</a>
+                     </li>
+                     <li class="text-gray-600">
+                        <a href="history.html">History</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex flex-row space-x-10 items-center">
+                  <button class="focus:outline-none">
+                     <img src="../assets/find.svg" alt="findLogo" />
+                  </button>
+                  <button class="focus:outline-none relative">
+                     <img src="../assets/ic-chat.svg" alt="iconChat" />
+                     <p
+                        class="
+                           absolute
+                           -top-2
+                           -left-2
+                           bg-yellow-900
+                           text-xs text-white
+                           w-4
+                           h-4
+                           rounded-full
+                           flex
+                           justify-center
+                           items-center
+                        "
+                     >
+                        1
+                     </p>
+                  </button>
+                  <a href="userProfile.html">
+                     <img
+                        class="w-8 h-8 rounded-full"
+                        src="../assets/IL-User.png"
+                        alt=""
+                     />
+                  </a>
+               </div>
             </div>
-            <div class="flex items-center">
-               <ul class="flex flex-row space-x-10">
-                  <li class="text-gray-600">
-                     <a href="home.html">Home</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="product.html">Product</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="cart.html">Your Cart</a>
-                  </li>
-                  <li class="text-gray-600">
-                     <a href="history.html">History</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="flex flex-row space-x-10 items-center">
-               <button class="focus:outline-none">
-                  <img src="../assets/find.svg" alt="findLogo" />
-               </button>
-               <button class="focus:outline-none relative">
-                  <img src="../assets/ic-chat.svg" alt="iconChat" />
-                  <p
-                     class="
-                        absolute
-                        -top-2
-                        -left-2
-                        bg-yellow-900
-                        text-xs text-white
-                        w-4
-                        h-4
-                        rounded-full
-                        flex
-                        justify-center
-                        items-center
-                     "
-                  >
-                     1
-                  </p>
-               </button>
-               <a href="userProfile.html">
-                  <img
-                     class="w-8 h-8 rounded-full"
-                     src="../assets/IL-User.png"
-                     alt=""
-                  />
-               </a>
-            </div>
-         </div>
-      </nav>
-      <section>
-         <div class="bgUserProfile flex flex-col justify-center">
-            <div class="flex flex-col justify-center">
-               <h2 class="font-bold text-white mt-20 text-3xl pl-24">
-                  User Profile
-               </h2>
-               <div class="flex flex-row justify-center">
-                  <div
-                     class="
-                        flex flex-col
-                        bg-yellow-900
-                        m-20
-                        rounded-t-2xl
-                        pb-5
-                        rounded-b-2xl
-                     "
-                  >
+         </nav>
+      </header>
+      <main>
+         <section>
+            <div class="bgUserProfile flex flex-col justify-center">
+               <div class="flex flex-col justify-center">
+                  <h2 class="font-bold text-white mt-20 text-3xl pl-24">
+                     User Profile
+                  </h2>
+                  <div class="flex flex-row justify-center">
                      <div
                         class="
                            flex flex-col
-                           bg-white
-                           p-10
-                           justify-center
-                           items-center
+                           bg-yellow-900
+                           m-20
                            rounded-t-2xl
-                           flex-1
+                           pb-5
+                           rounded-b-2xl
                         "
                      >
-                        <div class="h-32 w-32 relative">
-                           <img
-                              class="h-32 w-32 rounded-full"
-                              src="../assets/IL-User2.png"
-                              alt="user"
-                           />
-                           <button>
+                        <div
+                           class="
+                              flex flex-col
+                              bg-white
+                              p-10
+                              justify-center
+                              items-center
+                              rounded-t-2xl
+                              flex-1
+                           "
+                        >
+                           <div class="h-32 w-32 relative">
                               <img
-                                 class="
-                                    rounded-full
-                                    h-8
-                                    p-2
-                                    w-8
-                                    bg-red-900
-                                    absolute
-                                    right-0
-                                    bottom-2
-                                 "
-                                 src="../assets/ic-pencil.svg"
-                                 alt="pencil"
+                                 class="h-32 w-32 rounded-full"
+                                 src="../assets/IL-User2.png"
+                                 alt="user"
                               />
-                           </button>
-                        </div>
-                        <h4 class="font-bold text-xl mt-8 mb-1">Zulaikha</h4>
-                        <p class="text-xs mb-5">zulaikha17@gmail.com</p>
-                        <p class="text-gray-500">
-                           Has been ordered 15 products
-                        </p>
-                     </div>
-                  </div>
-                  <div
-                     class="
-                        flex flex-col
-                        bg-yellow-900
-                        m-20
-                        rounded-t-2xl
-                        pb-5
-                        rounded-b-2xl
-                        -ml-10
-                     "
-                  >
-                     <div
-                        class="flex flex-col bg-white p-5 flex-1 rounded-t-2xl"
-                     >
-                        <div class="flex flex-row justify-between">
-                           <h3 class="font-bold text-2xl text-gray-500">
-                              Contacts
-                           </h3>
-                           <button>
-                              <img
-                                 class="
-                                    w-10
-                                    h-10
-                                    bg-yellow-900
-                                    p-2
-                                    rounded-full
-                                 "
-                                 src="../assets/ic-pencil.svg"
-                                 alt=""
-                              />
-                           </button>
-                        </div>
-                        <div class="flex flex-row">
-                           <div class="flex flex-col w-72 mr-10">
-                              <h4 class="text-gray-400 font-semibold">
-                                 Email address :
-                              </h4>
-                              <p class="border-b-2 border-gray-500 mb-8">
-                                 zulaikha17@gmail.com
-                              </p>
-                              <h4 class="text-gray-400 font-semibold">
-                                 Delivery address :
-                              </h4>
-                              <p class="border-b-2 border-gray-500">
-                                 Iskandar Street no. 67 Block A Near Bus Stop
-                              </p>
-                           </div>
-                           <div class="w-72">
-                              <h4 class="text-gray-400 font-semibold">
-                                 Mobile number :
-                              </h4>
-                              <p class="border-b-2 border-gray-500">
-                                 (+62)813456782
-                              </p>
-                           </div>
-                           <div class="flex flex-col"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="flex flex-row justify-center -ml-20">
-                  <div
-                     class="
-                        flex flex-col
-                        bg-yellow-900
-                        m-20
-                        rounded-t-2xl
-                        pb-5
-                        rounded-b-2xl
-                     "
-                  >
-                     <div
-                        class="flex flex-col bg-white p-5 flex-1 rounded-t-2xl"
-                     >
-                        <div class="flex flex-row justify-between">
-                           <h3 class="font-bold text-2xl text-gray-500">
-                              Details
-                           </h3>
-                           <button>
-                              <img
-                                 class="
-                                    w-10
-                                    h-10
-                                    bg-yellow-900
-                                    p-2
-                                    rounded-full
-                                 "
-                                 src="../assets/ic-pencil.svg"
-                                 alt=""
-                              />
-                           </button>
-                        </div>
-                        <div class="flex flex-row">
-                           <div class="flex flex-col w-72 mr-10">
-                              <h4 class="text-gray-400 font-semibold">
-                                 Display name :
-                              </h4>
-                              <p class="border-b-2 border-gray-500 mb-8">
-                                 Zulaikha
-                              </p>
-                              <h4 class="text-gray-400 font-semibold">
-                                 First name :
-                              </h4>
-                              <p class="border-b-2 border-gray-500 mb-8">
-                                 Zulaikha
-                              </p>
-                              <h4 class="text-gray-400 font-semibold">
-                                 Last name :
-                              </h4>
-                              <p class="border-b-2 border-gray-500">Nirmala</p>
-                           </div>
-                           <div class="w-72">
-                              <h4 class="text-gray-400 font-semibold">
-                                 DD/MM/YY
-                              </h4>
-                              <p class="border-b-2 border-gray-500">03/04/90</p>
-                              <div class="flex flex-row items-center mt-5">
-                                 <div
+                              <button>
+                                 <img
                                     class="
-                                       mr-5
-                                       border-4 border-gray-400
-                                       w-5
-                                       h-5
+                                       rounded-full
+                                       h-8
+                                       p-2
+                                       w-8
+                                       bg-red-900
+                                       absolute
+                                       right-0
+                                       bottom-2
+                                    "
+                                    src="../assets/ic-pencil.svg"
+                                    alt="pencil"
+                                 />
+                              </button>
+                           </div>
+                           <h4 class="font-bold text-xl mt-8 mb-1">Zulaikha</h4>
+                           <p class="text-xs mb-5">zulaikha17@gmail.com</p>
+                           <p class="text-gray-500">
+                              Has been ordered 15 products
+                           </p>
+                        </div>
+                     </div>
+                     <div
+                        class="
+                           flex flex-col
+                           bg-yellow-900
+                           m-20
+                           rounded-t-2xl
+                           pb-5
+                           rounded-b-2xl
+                           -ml-10
+                        "
+                     >
+                        <div
+                           class="
+                              flex flex-col
+                              bg-white
+                              p-5
+                              flex-1
+                              rounded-t-2xl
+                           "
+                        >
+                           <div class="flex flex-row justify-between">
+                              <h3 class="font-bold text-2xl text-gray-500">
+                                 Contacts
+                              </h3>
+                              <button>
+                                 <img
+                                    class="
+                                       w-10
+                                       h-10
+                                       bg-yellow-900
+                                       p-2
                                        rounded-full
                                     "
-                                 >
-                                    <div class="bg-gray-white"></div>
-                                 </div>
-                                 <p class="font-semibold text-gray-500">Male</p>
+                                    src="../assets/ic-pencil.svg"
+                                    alt=""
+                                 />
+                              </button>
+                           </div>
+                           <div class="flex flex-row">
+                              <div class="flex flex-col w-72 mr-10">
+                                 <h4 class="text-gray-400 font-semibold">
+                                    Email address :
+                                 </h4>
+                                 <input
+                                    value="zulaikha17@gmail.com"
+                                    type="text"
+                                    class="border-b-2 border-gray-500 mb-8"
+                                    disabled
+                                 />
+                                 <h4 class="text-gray-400 font-semibold">
+                                    Delivery address :
+                                 </h4>
+                                 <input
+                                    value="Iskandar Street no. 67 Block A Near Bus Stop"
+                                    type="text"
+                                    class="border-b-2 border-gray-500"
+                                    disabled
+                                 />
                               </div>
-                              <div class="flex flex-row items-center mt-5">
+                              <div class="w-72">
+                                 <h4 class="text-gray-400 font-semibold">
+                                    Mobile number :
+                                 </h4>
+                                 <input
+                                    value="(+62)813456782"
+                                    type="text"
+                                    disabled
+                                    class="border-b-2 border-gray-500"
+                                 />
+                              </div>
+                              <div class="flex flex-col"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex flex-row justify-center -ml-20">
+                     <div
+                        class="
+                           flex flex-col
+                           bg-yellow-900
+                           m-20
+                           rounded-t-2xl
+                           pb-5
+                           rounded-b-2xl
+                        "
+                     >
+                        <div
+                           class="
+                              flex flex-col
+                              bg-white
+                              p-5
+                              flex-1
+                              rounded-t-2xl
+                           "
+                        >
+                           <div class="flex flex-row justify-between">
+                              <h3 class="font-bold text-2xl text-gray-500">
+                                 Details
+                              </h3>
+                              <button>
+                                 <img
+                                    class="
+                                       w-10
+                                       h-10
+                                       bg-yellow-900
+                                       p-2
+                                       rounded-full
+                                    "
+                                    src="../assets/ic-pencil.svg"
+                                    alt=""
+                                 />
+                              </button>
+                           </div>
+                           <div class="flex flex-row">
+                              <div class="flex flex-col w-72 mr-10">
+                                 <h4 class="text-gray-400 font-semibold">
+                                    Display name :
+                                 </h4>
+                                 <input
+                                    value="Zulaikha"
+                                    type="text"
+                                    disabled
+                                    class="border-b-2 border-gray-500 mb-8"
+                                 />
+                                 <h4 class="text-gray-400 font-semibold">
+                                    First name :
+                                 </h4>
+                                 <input
+                                    value="Zulaikha"
+                                    type="text"
+                                    disabled
+                                    class="border-b-2 border-gray-500 mb-8"
+                                 />
+                                 <h4 class="text-gray-400 font-semibold">
+                                    Last name :
+                                 </h4>
+                                 <input
+                                    value="Nirmala"
+                                    type="text"
+                                    disabled
+                                    class="border-b-2 border-gray-500"
+                                 />
+                              </div>
+                              <div class="w-72">
+                                 <h4 class="text-gray-400 font-semibold">
+                                    DD/MM/YY
+                                 </h4>
+                                 <input
+                                    value="03/04/90"
+                                    type="text"
+                                    disabled
+                                    class="border-b-2 border-gray-500"
+                                 />
+
                                  <div
                                     class="
-                                       mr-5
-                                       border-4 border-yellow-900
-                                       w-5
-                                       h-5
-                                       rounded-full
-                                       flex
-                                       justify-center
+                                       flex flex-row
+                                       items-center
+                                       mt-5
                                        items-center
                                     "
                                  >
-                                    <div
-                                       class="
-                                          bg-yellow-400
-                                          w-3
-                                          h-3
-                                          rounded-full
-                                       "
-                                    ></div>
+                                    <label class="radioGender m-3">
+                                       <input type="radio" name="gender" />
+                                       <span class="item"></span>
+                                    </label>
+                                    <p class="font-semibold text-gray-500">
+                                       Male
+                                    </p>
                                  </div>
-                                 <p class="font-semibold text-yellow-900">
-                                    Female
-                                 </p>
+                                 <div
+                                    class="
+                                       flex flex-row
+                                       items-center
+                                       mt-5
+                                       items-center
+                                    "
+                                 >
+                                    <label class="radioGender m-3">
+                                       <input type="radio" name="gender" />
+                                       <span class="item"></span>
+                                    </label>
+                                    <p class="font-semibold text-yellow-900">
+                                       Female
+                                    </p>
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="flex flex-col items-center justify-center">
-                     <h3 class="font-bold text-white text-2xl mb-5 text-center">
-                        Do you want to save the <br />
-                        change?
-                     </h3>
-                     <div
-                        class="
-                           flex flex-col
-                           justify-center
-                           items-center
-                           space-y-4
-                        "
-                     >
-                        <button
+                     <div class="flex flex-col items-center justify-center">
+                        <h3
                            class="
-                              bg-yellow-900
-                              flex flex-row
+                              font-bold
+                              text-white text-2xl
+                              mb-5
+                              text-center
+                           "
+                        >
+                           Do you want to save the <br />
+                           change?
+                        </h3>
+                        <div
+                           class="
+                              flex flex-col
                               justify-center
-                              px-5
-                              w-full
-                              py-3
-                              rounded-2xl
                               items-center
-                              font-bold
-                              text-white
+                              space-y-4
                            "
                         >
-                           Save Change
-                        </button>
-                        <button
-                           class="
-                              bg-yellow-400
-                              flex flex-row
-                              justify-between
-                              px-28
-                              py-3
-                              rounded-2xl
-                              items-center
-                              font-bold
-                              text-yellow-900
-                           "
-                        >
-                           Cancel
-                        </button>
-                        <button
-                           class="
-                              bg-gray-300
-                              flex flex-row
-                              justify-between
-                              px-5
-                              py-3
-                              w-full
-                              rounded-2xl
-                              items-center
-                           "
-                        >
-                           <p class="font-bold text-yellow-900">
-                              Edit Password
-                           </p>
-                           <i class="fas fa-chevron-right text-yellow-900"></i>
-                        </button>
-                        <button
-                           class="
-                              bg-gray-300
-                              flex flex-row
-                              justify-between
-                              px-5
-                              py-3
-                              w-full
-                              rounded-2xl
-                              items-center
-                           "
-                        >
-                           <p class="font-bold text-yellow-900">Log out</p>
-                           <i class="fas fa-chevron-right text-yellow-900"></i>
-                        </button>
+                           <button
+                              class="
+                                 bg-yellow-900
+                                 flex flex-row
+                                 justify-center
+                                 px-5
+                                 w-full
+                                 py-3
+                                 rounded-2xl
+                                 items-center
+                                 font-bold
+                                 text-white
+                              "
+                           >
+                              Save Change
+                           </button>
+                           <button
+                              class="
+                                 bg-yellow-400
+                                 flex flex-row
+                                 justify-between
+                                 px-28
+                                 py-3
+                                 rounded-2xl
+                                 items-center
+                                 font-bold
+                                 text-yellow-900
+                              "
+                           >
+                              Cancel
+                           </button>
+                           <button
+                              class="
+                                 bg-gray-300
+                                 flex flex-row
+                                 justify-between
+                                 px-5
+                                 py-3
+                                 w-full
+                                 rounded-2xl
+                                 items-center
+                              "
+                           >
+                              <p class="font-bold text-yellow-900">
+                                 Edit Password
+                              </p>
+                              <i
+                                 class="fas fa-chevron-right text-yellow-900"
+                              ></i>
+                           </button>
+                           <button
+                              class="
+                                 bg-gray-300
+                                 flex flex-row
+                                 justify-between
+                                 px-5
+                                 py-3
+                                 w-full
+                                 rounded-2xl
+                                 items-center
+                              "
+                           >
+                              <p class="font-bold text-yellow-900">Log out</p>
+                              <i
+                                 class="fas fa-chevron-right text-yellow-900"
+                              ></i>
+                           </button>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <section class="bg-gray-50">
+         </section>
+      </main>
+      <footer class="bg-gray-50">
          <article
             class="px-32 pt-20 pb-32 flex flex-row justify-between items-center"
          >
@@ -458,6 +503,6 @@
                </div>
             </div>
          </article>
-      </section>
+      </footer>
    </body>
 </html>
