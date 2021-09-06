@@ -17,7 +17,7 @@
    </head>
    <body>
       <header>
-         <nav class="px-32 py-7">
+         <nav class="hideHeader px-32 py-7">
             <div class="flex flex-row justify-between items-center">
                <div class="flex flex-row items-center space-x-3">
                   <img src="../assets/ic-logo.svg" alt="logo" />
@@ -117,9 +117,9 @@
       <main>
          <section>
             <article>
-               <div class="flex flex-row bg-gray-200 px-32 py-8">
+               <div class="sectionProductDetailColumn flex flex-row bg-gray-200 md:px-32 sm:px-1 py-8">
                   <div class="kiri contentLeftProduct">
-                     <div class="mb-20 text-lg">
+                     <div class="mb-20 text-lg paddingProduct">
                         <p>
                            Favorite & Promo
                            <span class="text-red-900 font-medium"
@@ -128,10 +128,10 @@
                         </p>
                      </div>
                      <div
-                        class="flex flex-col justify-center items-center -ml-44"
+                        class=" flex flex-col justify-center items-center sectionProductDetailLeft -ml-44"
                      >
                         <img
-                           class="rounded-full w-72 h-72 mb-10"
+                           class="imgPdetail rounded-full w-72 h-72 mb-10"
                            src="../assets/food10.png"
                            alt="kopi"
                         />
@@ -149,6 +149,7 @@
                               font-bold
                               mb-5
                               focus:outline-none
+                              paddingButtonPdetail
                            "
                         >
                            Add to Cart
@@ -162,6 +163,7 @@
                               py-4
                               font-bold
                               focus:outline-none
+                              paddingButtonPdetail
                            "
                         >
                            Ask a Staff
@@ -179,7 +181,7 @@
                            at
                            <span class="font-bold">1 - 7 pm</span>
                         </p>
-                        <p class="text-red-900 text-xl mr-16 mb-8">
+                        <p class="text-red-900 text-xl mr-16 textProductDetail mb-8">
                            Cold brewing is a method of brewing that combines
                            ground coffee and cool water and uses time instead of
                            heat to extract the flavor. It is brewed in small
@@ -323,8 +325,10 @@
                   justify-between
                   items-center
                   -my-20
-                  mx-48
+                  md:mx-48
+                  mx-2
                   space-x-10
+                  sectionProductDetailColumn
                "
             >
                <div
@@ -338,6 +342,8 @@
                      py-8
                      shadow-2xl
                      flex-1
+                     paddingButtonPdetail
+                     gapDetailProduct
                   "
                >
                   <img
@@ -398,26 +404,29 @@
                      </button>
                   </div>
                </div>
-               <a
-                  href="cart.html"
-                  class="
-                     bg-yellow-400
-                     font-bold
-                     text-2xl
-                     py-16
-                     px-10
-                     rounded-xl
-                     focus:outline-none
-                     shadow-xl
-                     animate-bounce
-                  "
-               >
-                  CHECKOUT
-               </a>
+               <div class="centerProductDetail">
+                  <a
+                     href="cart.html"
+                     class="
+                        bg-yellow-400
+                        font-bold
+                        text-2xl
+                        py-16
+                        px-10
+                        rounded-xl
+                        focus:outline-none
+                        shadow-xl
+                        animate-bounce
+                        paddingButtonCheckoutdetail
+                     "
+                  >
+                     CHECKOUT
+                  </a>
+               </div>
             </div>
          </section>
       </main>
-      <footer class="bg-gray-50">
+      <footer class="hideFooter bg-gray-50">
          <article
             class="px-32 pt-52 pb-32 flex flex-row justify-between items-center"
          >

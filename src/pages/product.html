@@ -17,7 +17,7 @@
    </head>
    <body>
       <header>
-         <nav class="px-32 py-8">
+         <nav class="px-32 py-8 hideHeader">
             <div class="flex flex-row justify-between items-center">
                <div class="flex flex-row items-center space-x-3">
                   <img src="../assets/ic-logo.svg" alt="logo" />
@@ -86,6 +86,7 @@
                   space-y-8
                   border-t-2 border-r-2
                   pt-3
+                  hideSection
                "
             >
                <div class="flex flex-col items-center space-y-8 -mt-40">
@@ -166,9 +167,9 @@
                   </ol>
                </div>
             </div>
-            <div class="kanan flex-1 border-t-2 px-44 py-10 flex-col">
+            <div class="kanan flex-1 border-t-2 px-44 paddingProduct py-10 flex-col">
                <div class="mb-16">
-                  <ul class="flex flex-row justify-between">
+                  <ul class="gridProductCategory flex flex-row justify-between">
                      <li
                         class="
                            text-red-900
@@ -195,7 +196,7 @@
                      </li>
                   </ul>
                </div>
-               <div class="grid grid-flow-row grid-cols-4 grid-rows-3 gap-10">
+               <div class="grid grid-flow-row md:grid-cols-4 grid-cols-2 grid-rows-3 gap-10">
                   <a
                      href="productDetail.html"
                      class="
@@ -465,7 +466,7 @@
             </div>
          </section>
       </main>
-      <footer class="bg-gray-50">
+      <footer class="bg-gray-50 hideFooter">
          <article
             class="px-32 py-28 flex flex-row justify-between items-center"
          >

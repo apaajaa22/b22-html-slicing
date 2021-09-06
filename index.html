@@ -27,6 +27,7 @@
             top-0
             bg-white
             shadow-lg
+            hideHeader
          "
       >
          <div class="flex items-center">
@@ -76,15 +77,15 @@
 
       <main>
          <section
-            class="bg-cover bg-center"
+            class="bg-cover bg-center "
             style="background-image: url(./src/assets/hero.png); height: 645px"
          >
-            <div class="flex py-5 px-32">
-               <div class="kiri flex-1">
-                  <h2 class="font-bold text-white text-4xl max-w-md py-10">
+            <div class="flex py-5 px-32 sectionHorizontal">
+               <div class="kiri flex-1 titleHomeCenter">
+                  <h2 class=" titleHome font-bold text-white text-4xl max-w-md py-10">
                      Start Your Day with Coffee and Good Meals
                   </h2>
-                  <p class="text-white text-md font-bold mb-10 max-w-md">
+                  <p class=" text-white text-md font-bold mb-10 max-w-md">
                      We provide high quality beans, good taste, and healthy
                      meals made by love just for you. Start your day with us for
                      a bigger smile!
@@ -95,7 +96,7 @@
                      >Get Started</a
                   >
                </div>
-               <div class="kanan flex-1">
+               <div class="kanan flex-1 hideSection">
                   <div
                      class="
                         float-right
@@ -104,6 +105,7 @@
                         rounded-full
                         px-5
                         py-2
+                        hideSection
                      "
                   >
                      <button>
@@ -131,9 +133,11 @@
                flex-row
                justify-between
                items-center
+               hideSection
+               sectionHorizontal
             "
          >
-            <div class="flex flex-row items-center">
+            <div class="flex flex-row items-center ">
                <div
                   class="
                      bg-yellow-400
@@ -196,12 +200,12 @@
                </div>
             </div>
          </section>
-         <section class="flex px-32 mb-5">
-            <div class="min-w-max mr-32 mt-36 flex-1">
+         <section class="flex px-32 mb-5 homeBlock sectionHorizontal">
+            <div class="min-w-max mr-32 mt-36 flex-1 hideSection">
                <img src="./src/assets/teamWork.png" alt="teamwork" />
             </div>
-            <div class="float-right mt-52 flex-1">
-               <h2 class="font-semibold text-3xl mb-5">
+            <div class="float-right mt-52 flex-1 sectionHorizontal">
+               <h2 class="font-semibold text-3xl mb-5 ">
                   We Provide Good Coffee and Healthy Meals
                </h2>
                <p class="mb-5">
@@ -277,9 +281,9 @@
                </ul>
             </div>
          </section>
-         <section class="bg-gray-50 pb-44">
+         <section class="bg-gray-50 pb-44 sectionHorizontal">
             <div class="flex flex-col items-center pt-20">
-               <div class="text-black font-bold text-2xl mb-5">
+               <div class="homeAlignCenter text-black font-bold text-2xl mb-5">
                   Here is People’s Favorite
                </div>
                <div class="mb-24">
@@ -287,7 +291,7 @@
                   might be yours too!
                </div>
             </div>
-            <div class="flex flex-row justify-between px-32">
+            <div class="flex flex-row justify-between px-32 sectionHorizontal homeBlock">
                <div
                   class="
                      flex flex-col
@@ -369,6 +373,7 @@
                      border-2 border-gray-200
                      rounded-xl
                      hover:border-red-900
+                     gapTopHome
                   "
                >
                   <img
@@ -445,6 +450,7 @@
                      border-2 border-gray-200
                      rounded-xl
                      hover:border-red-900
+                     gapTopHome
                   "
                >
                   <img
@@ -518,7 +524,7 @@
                </div>
             </div>
          </section>
-         <section class="px-32 bg-gray-50">
+         <section class="gapTopHome px-32 sectionHorizontal bg-gray-50">
             <div class="title text-center mb-5">
                <h2 class="font-semibold text-2xl">
                   Visit Our Store in the <br />
@@ -535,11 +541,11 @@
                <img src="./src/assets/map.png" alt="" />
             </div>
          </section>
-         <section class="bg-gray-50 flex flex-col px-32 items-center py-20">
+         <section class="bg-gray-50 flex flex-col px-32 sectionHorizontal items-center py-20">
             <h2 class="font-semibold text-black text-2xl">Our Partner</h2>
             <img src="./src/assets/partner.png" alt="partner" />
          </section>
-         <section class="bg-gray-50 pb-36 px-32">
+         <section class="bg-gray-50 pb-36 px-32 sectionHorizontal hideSection">
             <div class="flex flex-col justify-center items-center">
                <h3 class="font-semibold text-2xl text-center mb-10">
                   Loved by Thousands of <br />
@@ -550,7 +556,7 @@
                   with great pleasure.
                </p>
             </div>
-            <div class="flex pb-20 space-x-14">
+            <div class="flex pb-20 space-x-14 hideSection">
                <div
                   class="
                      w-96
@@ -559,7 +565,8 @@
                      border-2 border-gray-300
                      rounded-md
                      p-5
-                     hover:border-red-900
+                     hover:border-red-900\
+
                   "
                >
                   <div class="flex flex-row justify-between items-center">
@@ -641,7 +648,7 @@
                   </div>
                </div>
             </div>
-            <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-row justify-between items-center hideSection">
                <div class="flex flex-row justify-between">
                   <div class="w-11 rounded-full h-3 bg-red-900 mr-3"></div>
                   <div class="w-3 rounded-full h-3 bg-gray-300 mr-3"></div>
@@ -693,6 +700,7 @@
                justify-between
                items-center
                px-10
+               hideSection
             "
          >
             <div class="flex flex-col">
@@ -719,7 +727,7 @@
             </button>
          </section>
       </main>
-      <footer class="px-32 py-28 flex flex-row justify-between items-center">
+      <footer class="hideFooter px-32 sectionHorizontal py-28 flex flex-row justify-between items-center">
          <div class="flex flex-col">
             <div class="flex flex-row items-center">
                <img src="./src/assets/ic-logo.svg" alt="logo" />

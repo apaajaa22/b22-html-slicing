@@ -149,5 +149,94 @@
    font-size: 18px;
 }
 @media only screen and (max-width: 600px) {
+/* Home */
 
- }
+.hideHeader {
+   display: none;
+}
+.hideFooter {
+   display: none;
+}
+.hideSection {
+   display: none;
+}
+.homeBlock{
+   display: inline-block;
+}
+.titleHome {
+   font-size: 20px;
+}
+.sectionHorizontal {
+   padding: 0px 10px 0px 10px;
+}
+.homeAlignCenter {
+   text-align: center;
+   width: 200px;
+}
+.titleHomeCenter {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.gapTopHome {
+   margin-top: 20px;
+}
+
+/* cart */
+.CartColumn {
+   display: flex;
+   flex-direction: column;
+   padding: 0px;
+   align-items: center;
+}
+.cartSectionHorizontal {
+   padding: 0px 0px 0px 0px;
+}
+.paddingCartHorizontal{
+   padding: 0px 20px 0px 20px;
+}
+.gapTopCart {
+   margin-top: 20px;
+}
+.paddingHistoryHorizontal {
+   padding: 0px 20px 0px 20px;
+}
+/* product */
+.paddingProduct {
+   padding: 0px 10px;
+}
+.gridProductCategory {
+   display: inline-block;
+}
+/* product detail */
+
+.sectionProductDetailColumn {
+   display: block;
+}
+.textProductDetail {
+   margin-right: 0px;
+   font-size: 16px;
+}
+.sectionProductDetailLeft {
+   margin-right: -120px;
+   margin-left: 70px;
+}
+.paddingButtonPdetail {
+   padding: 10px 20px;
+}
+.paddingButtonCheckoutdetail {
+   padding: 20px 20px;
+}
+.imgPdetail {
+   width: 200px;
+   height: 200px;
+}
+.gapDetailProduct {
+   margin-bottom: 30px;
+}
+.centerProductDetail {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+}

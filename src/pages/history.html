@@ -17,7 +17,7 @@
    </head>
    <body>
       <header>
-         <nav class="px-32 py-8">
+         <nav class="md:px-32 px-0 py-8 hideHeader">
             <div class="flex flex-row justify-between items-center">
                <div class="flex flex-row items-center space-x-3">
                   <img src="../assets/ic-logo.svg" alt="logo" />
@@ -75,14 +75,14 @@
          </nav>
       </header>
       <main>
-         <section class="bgHistory px-64 py-20">
-            <div class="flex flex-col justify-center items-center mb-10">
+         <section class="md:px-64 px-0 bgHistory py-20">
+            <div class="paddingHistoryHorizontal flex flex-col justify-center items-center mb-10">
                <h2 class="font-bold text-white text-2xl">
                   Let’s see what you have bought!
                </h2>
                <h6 class="text-xs text-white">Select item to delete</h6>
             </div>
-            <div class="flex flex-col space-y-4">
+            <div class="flex flex-col space-y-4 paddingHistoryHorizontal">
                <div>
                   <a
                      href="history2.html"
@@ -91,7 +91,7 @@
                      Select All
                   </a>
                </div>
-               <div class="grid grid-flow-row grid-cols-3 grid-rows-5 gap-4">
+               <div class="grid grid-flow-row md:grid-cols-3 grid-cols-1 grid-rows-5 gap-4">
                   <div
                      class="
                         bg-white
@@ -501,9 +501,9 @@
             </div>
          </section>
       </main>
-      <footer class="bg-gray-50">
+      <footer class="hideFooter bg-gray-50">
          <article
-            class="px-32 pt-20 pb-32 flex flex-row justify-between items-center"
+            class="md:px-32 px-0 pt-20 pb-32 flex flex-row justify-between items-center"
          >
             <div class="flex flex-col">
                <div class="flex flex-row items-center">

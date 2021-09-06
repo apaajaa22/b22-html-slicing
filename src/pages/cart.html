@@ -17,7 +17,7 @@
    </head>
    <body>
       <header>
-         <nav class="px-32 py-8">
+         <nav class="px-32 py-8 hideHeader">
             <div class="flex flex-row justify-between items-center">
                <div class="flex flex-row items-center space-x-3">
                   <img src="../assets/ic-logo.svg" alt="logo" />
@@ -75,19 +75,20 @@
          </nav>
       </header>
       <main>
-         <section class="backgroundCart px-32 py-10">
+         <section class="backgroundCart paddingCartHorizontal cartSectionHorizontal px-32 py-10">
             <h2 class="font-bold text-white text-2xl">
                Checkout your <br />
                item now!
             </h2>
-            <div class="flex flex-row space-x-40 justify-center pb-56">
+            <div class="CartColumn flex flex-row space-x-0 md:space-x-40 justify-center pb-56">
                <div
                   class="
                      flex flex-col
                      bg-white
                      px-10
                      py-5
-                     w-96
+                     md:w-96
+                     w-80
                      rounded-xl
                      mt-10
                   "
@@ -159,7 +160,7 @@
                      <p class="font-bold text-xl">IDR 150.000</p>
                   </div>
                </div>
-               <div class="flex flex-col space-y-8">
+               <div class="flex flex-col space-y-8 gapTopCart">
                   <div>
                      <div
                         class="flex flex-row justify-between items-center mb-5"
@@ -288,7 +289,7 @@
             </div>
          </section>
       </main>
-      <footer class="bg-gray-50">
+      <footer class="bg-gray-50 hideFooter">
          <article
             class="px-32 pt-20 pb-32 flex flex-row justify-between items-center"
          >
